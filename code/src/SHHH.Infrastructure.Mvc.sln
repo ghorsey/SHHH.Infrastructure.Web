@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{939A437C-CFDA-424F-8012-8D13AD60B6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Mvc", "SHHH.Infractructure.Mvc\SHHH.Infrastructure.Mvc.csproj", "{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infractructure.Mvc.Tests", "SHHH.Infractructure.Mvc.Tests\SHHH.Infractructure.Mvc.Tests.csproj", "{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CEFC46B-E7FA-4E38-B361-71A3AFC130E8} = {939A437C-CFDA-424F-8012-8D13AD60B6A7}
+	EndGlobalSection
+EndGlobal
