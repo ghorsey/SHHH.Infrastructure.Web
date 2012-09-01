@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SHHH.Infractructure.Mvc")]
+[assembly: AssemblyTitle("SHHH.Infrastructure.Mvc.Testing")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SHHH.Infractructure.Mvc")]
+[assembly: AssemblyProduct("SHHH.Infrastructure.Mvc.Testing")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5ee3cada-a434-41e5-ade2-f7414efd8929")]
+[assembly: Guid("7b82e68c-b4b6-4c65-b9c9-6b2d9fe526f3")]
 
 // Version information for an assembly consists of the following four values:
 //
