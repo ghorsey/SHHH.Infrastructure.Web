@@ -5,7 +5,7 @@ using System.Web.Routing;
 using Moq;
 using NUnit.Framework;
 
-namespace OverNear.API.Tests.Routes
+namespace SHHH.Infrastructure.Mvc.Testing
 {
     public abstract class RouteTestBase
     {
