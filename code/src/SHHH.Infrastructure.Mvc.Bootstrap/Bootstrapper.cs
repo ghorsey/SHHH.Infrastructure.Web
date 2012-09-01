@@ -28,8 +28,7 @@ namespace SHHH.Infrastructure.Mvc.Bootstrap
             if (!assemblyName.EndsWith(".dll"))
                 assemblyName += ".dll";
 
-
-            var assembly = Assembly.LoadFrom(Path.Combine(binPath, "ProjectRails.Web.Bootstrap.dll"));
+            var assembly = Assembly.LoadFrom(Path.Combine(binPath, assemblyName));
 
             return assembly.GetTypes().Where(t => typeof(IBootstrapTask).IsAssignableFrom(t));
         }
