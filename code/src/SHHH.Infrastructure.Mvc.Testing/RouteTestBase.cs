@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Web;
+using System.Web.Http;
 using System.Web.Routing;
 using Moq;
 using NUnit.Framework;
@@ -10,12 +11,22 @@ namespace SHHH.Infrastructure.Mvc.Testing
     public abstract class RouteTestBase
     {
         protected RouteCollection Routes { get; private set; }
+        protected HttpConfiguration HttpConfiguration { get; private set; }
 
         protected RouteTestBase(Func<RouteCollection> f)
         {
             if (f == null) throw new ArgumentNullException("Function to return routes cannot be null!");
 
             Routes = f();
+        }
+
+        protected RouteTestBase(Func<Tuple<RouteCollection, HttpConfiguration>> f)
+        {
+            if (f == null) throw new ArgumentNullException("Function to return routes and HTTP configuration cannot be null!");
+
+            var t = f();
+            Routes = t.Item1;
+            HttpConfiguration = t.Item2;
         }
 
 
