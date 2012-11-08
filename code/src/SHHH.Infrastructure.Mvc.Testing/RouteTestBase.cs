@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
@@ -18,6 +20,23 @@ namespace SHHH.Infrastructure.Mvc.Testing
             if (f == null) throw new ArgumentNullException("Function to return routes cannot be null!");
 
             Routes = f();
+        }
+
+        protected void TestHttpRoute<T, U>(HttpMethod method, string url, Type controllerType, Expression<Func<T, U>> expression)
+        {
+            if (HttpConfiguration == null) throw new InvalidOperationException("HttpConfiguration cannot be null!");
+
+            if (!url.StartsWith("http") && !url.StartsWith("/"))
+                url = "/" + url;
+            if (!url.StartsWith("http"))
+                url = "http://localhost/" + url;
+
+            var request = new HttpRequestMessage(method, url);
+
+            var tester = new RouteTester(this.HttpConfiguration, request);
+
+            Assert.AreEqual(controllerType, tester.GetControllerType());
+            Assert.AreEqual(ReflectionHelper.GetMethodName(expression), tester.GetActionName());
         }
 
         protected RouteTestBase(Func<Tuple<RouteCollection, HttpConfiguration>> f)
