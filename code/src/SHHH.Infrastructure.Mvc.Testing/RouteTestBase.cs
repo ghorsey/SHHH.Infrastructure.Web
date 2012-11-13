@@ -34,9 +34,15 @@ namespace SHHH.Infrastructure.Mvc.Testing
             var request = new HttpRequestMessage(method, url);
 
             var tester = new RouteTester(this.HttpConfiguration, request);
-
-            Assert.AreEqual(controllerType, tester.GetControllerType());
-            Assert.AreEqual(ReflectionHelper.GetMethodName(expression), tester.GetActionName());
+            try
+            {
+                Assert.AreEqual(controllerType, tester.GetControllerType());
+                Assert.AreEqual(ReflectionHelper.GetMethodName(expression), tester.GetActionName());
+            }
+            catch (HttpResponseException x)
+            {
+                throw new Exception(x.Response.ToString(), x);
+            }
         }
 
         protected RouteTestBase(Func<Tuple<RouteCollection, HttpConfiguration>> f)

@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Mvc", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E5FB475-776D-43D8-A610-CC25830EFC1A}"
 	ProjectSection(SolutionItems) = preProject
+		bump.py = bump.py
+		clean.py = clean.py
+		nuget.py = nuget.py
 		..\..\README.md = ..\..\README.md
+		walklevel.py = walklevel.py
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Mvc.Bootstrap", "SHHH.Infrastructure.Mvc.Bootstrap\SHHH.Infrastructure.Mvc.Bootstrap.csproj", "{9A415FE7-385A-4CC3-9D90-828037841F3C}"
