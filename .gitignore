@@ -6,3 +6,4 @@ obj
 *.Publish.xml
 *-results.xml
 packages
+StyleCop.cache

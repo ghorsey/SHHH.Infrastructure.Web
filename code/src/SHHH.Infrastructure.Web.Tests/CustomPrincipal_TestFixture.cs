@@ -1,13 +1,22 @@
-﻿using System;
-using NUnit.Framework;
-using SHHH.Infrastructure.Web.Tests.Shims;
-using SHHH.Infrastructure.Web;
+﻿// <copyright file="CustomPrincipal_TestFixture.cs" company="SHHH Innovations LLC">
+// Copyright SHHH Innovations LLC
+// </copyright>
 
 namespace SHHH.Infrastructure.Web.Tests
 {
+    using System;
+    using NUnit.Framework;
+    using SHHH.Infrastructure.Web.Tests.Shims;
+
+    /// <summary>
+    /// The custom principal test fixture
+    /// </summary>
     [TestFixture]
     public class CustomPrincipal_TestFixture
     {
+        /// <summary>
+        /// Tests the constructor.
+        /// </summary>
         [Test]
         public void New_Test()
         {
