@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SHHH.Infrastructure.Web.Bootstrap.DependencyResolver</name>
+    </assembly>
+    <members>
+        <member name="T:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter">
+            <summary>
+            The Dependency resolver adapter
+            </summary>
+        </member>
+        <member name="F:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.dependencyResolver">
+            <summary>
+            The dependency resolver
+            </summary>
+        </member>
+        <member name="M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.#ctor(System.Web.Mvc.IDependencyResolver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter"/> class.
+            </summary>
+            <param name="dependencyResolver">The dependency resolver.</param>
+        </member>
+        <member name="M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.Get``1">
+            <summary>
+            Gets this instance.
+            </summary>
+            <typeparam name="T">The type of service</typeparam>
+            <returns>An instance of the service type</returns>
+        </member>
+        <member name="M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.GetAll``1">
+            <summary>
+            Gets all implementations of the service.
+            </summary>
+            <typeparam name="T">The type of service to return </typeparam>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerable`1"/> of the requested service types</returns>
+        </member>
+    </members>
+</doc>
