@@ -1,0 +1,9 @@
+NuGet = ..\.nuget\NuGet.exe
+SPEC:
+	 $(NuGet) spec SHHH.Infrastructure.Web.Bootstrap.csproj
+
+PACK: SPEC
+	$(NuGet) pack SHHH.Infrastructure.Web.Bootstrap.csproj -Prop Configuration=Release
+
+PUSH: PACK
+	$(NuGet) push SHHH.Infrastructure.Web.Bootstrap.*.nupkg
