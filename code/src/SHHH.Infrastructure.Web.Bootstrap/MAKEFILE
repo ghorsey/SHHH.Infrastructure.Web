@@ -1,9 +1,18 @@
 NuGet = ..\.nuget\NuGet.exe
-SPEC:
-	 $(NuGet) spec SHHH.Infrastructure.Web.Bootstrap.csproj
+Name = SHHH.Infrastructure.Web.Bootstrap.
 
-PACK: SPEC
-	$(NuGet) pack SHHH.Infrastructure.Web.Bootstrap.csproj -Prop Configuration=Release
+SPEC:
+	@ECHO CREATING SPEC...
+	 $(NuGet) spec $(Name)csproj
+
+PACK: SPEC CLEAN
+	@ECHO CREATING PACK...
+	$(NuGet) pack $(Name)csproj -Prop Configuration=Release
 
 PUSH: PACK
-	$(NuGet) push SHHH.Infrastructure.Web.Bootstrap.*.nupkg
+	@ECHO PUSHING PACK...
+	$(NuGet) push $(Name)*.nupkg
+
+CLEAN:
+	@ECHO CLEANING PACKS...
+	del $(Name)*.nupkg
