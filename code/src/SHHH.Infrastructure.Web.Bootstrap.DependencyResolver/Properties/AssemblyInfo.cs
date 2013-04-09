@@ -7,10 +7,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SHHH.Infrastructure.Bootstrap.DependencyResolver")]
+[assembly: AssemblyTitle("SHHH.Infrastructure.Web.Bootstrap.DependencyResolver")]
 [assembly: AssemblyDescription("Provides an adapter for bootstrapping using the Dependency Resolver of MVC")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("SHHH.Infrastructure.Bootstrap.DependencyResolver")]
+[assembly: AssemblyProduct("SHHH.Infrastructure.Web.Bootstrap.DependencyResolver")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

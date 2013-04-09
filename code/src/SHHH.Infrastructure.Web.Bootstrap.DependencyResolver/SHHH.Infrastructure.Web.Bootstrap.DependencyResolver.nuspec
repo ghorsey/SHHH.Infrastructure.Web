@@ -11,8 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Marked the assebmly as CLS compliant
-      * Marked the assembly to Allow Partially Trusted Callers
+      * Removed Allow Partially Trusted Callers
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
