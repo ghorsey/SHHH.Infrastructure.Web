@@ -7,10 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E5FB475-776D-43D8-A610-CC25830EFC1A}"
 	ProjectSection(SolutionItems) = preProject
-		bump.py = bump.py
-		clean.py = clean.py
 		..\..\README.md = ..\..\README.md
-		walklevel.py = walklevel.py
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap", "SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj", "{9A415FE7-385A-4CC3-9D90-828037841F3C}"
@@ -31,6 +28,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{76386F16-0E0F-4A03-8F7D-11A6080C3D7F}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SHHH_Infrastructure_Web", "SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj", "{9EC55DE2-173F-490D-B2AC-AA9E49042657}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{BB8367AB-4641-44E8-9E96-C58CF57067DA}"
+	ProjectSection(SolutionItems) = preProject
+		bump.py = bump.py
+		clean.py = clean.py
+		walklevel.py = walklevel.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{BA2FCB95-449E-4753-A47E-B9E69D157320}"
+	ProjectSection(SolutionItems) = preProject
+		SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.nuspec = SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.nuspec
+		SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.nuspec = SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.nuspec
+		SHHH.Infractructure.Web\SHHH.Infrastructure.Web.nuspec = SHHH.Infractructure.Web\SHHH.Infrastructure.Web.nuspec
+		SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec = SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +78,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6E4CD408-9CD1-43B7-AE56-B29EE9E84E1E} = {939A437C-CFDA-424F-8012-8D13AD60B6A7}
+		{BB8367AB-4641-44E8-9E96-C58CF57067DA} = {1E5FB475-776D-43D8-A610-CC25830EFC1A}
+		{BA2FCB95-449E-4753-A47E-B9E69D157320} = {1E5FB475-776D-43D8-A610-CC25830EFC1A}
 		{9EC55DE2-173F-490D-B2AC-AA9E49042657} = {76386F16-0E0F-4A03-8F7D-11A6080C3D7F}
 	EndGlobalSection
 EndGlobal

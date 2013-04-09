@@ -10,7 +10,10 @@
     <projectUrl>https://github.com/ghorsey/SHHH.Infrastructure.Web</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+      * Marked the assebmly as CLS compliant
+      * Marked the assembly to Allow Partially Trusted Callers
+    </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
   </metadata>
