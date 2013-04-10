@@ -85,7 +85,7 @@ namespace SHHH.Infrastructure.Web.Html
         ///   <c>&lt;script src="/Content/Styles/awesome.js"&gt;&lt;/script&gt;</c>
         /// </example>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        public static HtmlString Javascript(HtmlHelper helper, string src, string suffix = ".min")
+        public static HtmlString Javascript(this HtmlHelper helper, string src, string suffix = ".min")
         {
             if (src.ToUpperInvariant().EndsWith(".JS"))
             {
