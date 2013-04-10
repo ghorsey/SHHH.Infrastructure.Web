@@ -80,9 +80,9 @@ namespace SHHH.Infrastructure.Web.Html
         /// <returns>Returns a script tag with the SRC set to <c>{filename}.js</c> when the debugger is attached; otherwise <c>{filename}{suffix}.js</c></returns>
         /// <example>
         /// Call to <c>@Html.Javascript(Url.Content("~/Content/scripts/awesome"), "-min")</c>
-        /// Will result in the following HTML <c>&lt;script src="/Content/scripts/awesome-min.js"/&gt;</c>
+        /// Will result in the following HTML <c>&lt;script src="/Content/scripts/awesome-min.js"&gt;&lt;/script&gt;</c>
         /// when the debugger is not attached.  Otherwise, if the debugger is attached, it will result in the following HTML:
-        ///   <c>&lt;script src="/Content/Styles/awesome.js"/&gt;</c>
+        ///   <c>&lt;script src="/Content/Styles/awesome.js"&gt;&lt;/script&gt;</c>
         /// </example>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
         public static HtmlString Javascript(HtmlHelper helper, string src, string suffix = ".min")
