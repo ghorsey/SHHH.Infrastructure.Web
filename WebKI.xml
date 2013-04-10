@@ -140,6 +140,15 @@
   <HelpKINode Title="GetMethodName&lt;T, U&gt; method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="GetRedirectUrl method" Url="html/63729680-7b0b-c46d-0ce0-76689366c9f5.htm" />
   <HelpKINode Title="GetRedirectUrl method" Url="html/cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm" />
+  <HelpKINode Title="HtmlHelperExtensions class" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
+  <HelpKINode Title="HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+  <HelpKINode Title="HtmlHelperExtensions class">
+    <HelpKINode Title="about HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+    <HelpKINode Title="all members" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
+    <HelpKINode Title="methods" Url="html/4610bc93-e5da-a422-916d-e0fa2429a44a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HtmlHelperExtensions.Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
   <HelpKINode Title="HttpConfiguration property" Url="html/c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm" />
   <HelpKINode Title="IBootstrapTask interface" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
   <HelpKINode Title="IBootstrapTask interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
@@ -193,6 +202,7 @@
   <HelpKINode Title="IsInRole method" Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
   <HelpKINode Title="IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
   <HelpKINode Title="IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
+  <HelpKINode Title="Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
   <HelpKINode Title="Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
@@ -268,6 +278,9 @@
   <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.BasicFormsAuthentication class" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.IFormsAuthenticationAdapter interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.IFormsAuthenticationAdapter interface" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Html namespace" Url="html/c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider&lt;T&gt; interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
@@ -285,6 +298,7 @@
   <HelpKINode Title="SignIn method" Url="html/9b03c720-135a-1b5e-e842-a5d7a9695798.htm" />
   <HelpKINode Title="SignOut method" Url="html/44783d55-0ee4-1773-414c-5903e2c8e609.htm" />
   <HelpKINode Title="SignOut method" Url="html/86563f90-2518-bcc7-cead-ccdc060248cc.htm" />
+  <HelpKINode Title="Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
   <HelpKINode Title="TestHttpRoute(Of T, U) method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
   <HelpKINode Title="TestHttpRoute&lt;T, U&gt; method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
   <HelpKINode Title="TestRouteFromRouteData method" Url="html/c66633aa-27db-62f1-3f20-f467b09bcedd.htm" />
