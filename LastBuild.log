@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/10/2013 1:40:33 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/11/2013 3:18:00 PM">
 <buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+    Not all prior output was removed from &#39;E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\&#39;: The process cannot access the file &#39;manifest.xml&#39; because it is being used by another process.
 </buildStep>
 <buildStep step="FindingTools">
 Finding tools...
@@ -26,8 +30,10 @@ Parsing project files
 References to include (excluding framework assemblies):
     Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
     Moq
+    Newtonsoft.Json
     nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL
     SHHH.Infrastructure.Web.Bootstrap, Version=1.3.3.3, Culture=neutral, PublicKeyToken=e6c1afb92930c2ff, processorArchitecture=MSIL
+    System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
     System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
     System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
     System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
@@ -48,30 +54,30 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
   MRefBuilder (v2.7.1.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
-  Info: Loaded 4 assemblies for reflection and 12 dependency assemblies.
-  Info: Wrote information on 6 namespaces, 15 types, and 48 members
+  Info: Loaded 4 assemblies for reflection and 14 dependency assemblies.
+  Info: Wrote information on 8 namespaces, 17 types, and 54 members
   XslTransform (v2.7.1.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:02.3031
+    Last step completed in 00:00:01.7331
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0370
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.1390
+    Last step completed in 00:00:00.1730
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -83,12 +89,13 @@ Transforming reflection output...
   XslTransform (v2.7.1.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Error : The output file &#39;manifest.xml&#39; could not be loaded. The error is: The process cannot access the file &#39;E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\manifest.xml&#39; because it is being used by another process. [E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\TransformManifest.proj]
     Last step completed in 00:00:01.0841
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0220
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -286,7 +293,7 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding -&gt; E:\Users\Ge
     C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:00.1820
+    Last step completed in 00:00:01.1831
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -304,17 +311,17 @@ Generating intermediate table of contents file...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2630
+    Last step completed in 00:00:00.3240
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\sandcastle.config
-    Last step completed in 00:00:00.1370
+    Last step completed in 00:00:00.2520
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -337,6 +344,45 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
@@ -394,14 +440,14 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
-  Info: Processed 107 topics
-    Last step completed in 00:00:45.7036
+  Info: Processed 124 topics
+    Last step completed in 00:00:52.0340
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -413,11 +459,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website
-Processed 107 HTML files
+Processed 124 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\WebKI.xml
 Saving website table of contents to E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\WebTOC.xml
-    Last step completed in 00:00:00.6220
+    Last step completed in 00:00:00.8851
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -426,7 +472,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.3460
+    Last step completed in 00:00:00.6970
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -438,6 +484,7 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_104.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_104.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_105.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_105.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_106.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_106.json
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_107.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_107.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_108.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_108.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_109.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_109.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_110.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_110.json
@@ -449,6 +496,7 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_117.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_117.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_118.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_118.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_119.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_119.json
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_120.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_120.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_97.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_97.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_98.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_98.json
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_99.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_99.json
@@ -458,18 +506,22 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\06ed42e0-4ce6-3e13-b089-a712032a82b9.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\06ed42e0-4ce6-3e13-b089-a712032a82b9.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\088dac01-4be9-3778-f017-433db474630d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\088dac01-4be9-3778-f017-433db474630d.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\096ad4d2-5686-af06-aca4-7904229d2f7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\096ad4d2-5686-af06-aca4-7904229d2f7d.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\099d1ef8-0f60-4958-e7d2-56e1288e85ab.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\099d1ef8-0f60-4958-e7d2-56e1288e85ab.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0a4f51ae-7cda-ad3a-53e0-40e3888bc5e8.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0a4f51ae-7cda-ad3a-53e0-40e3888bc5e8.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\13818f41-3b9a-c338-6179-1fc302e3ee09.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\13818f41-3b9a-c338-6179-1fc302e3ee09.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1658645c-72ef-9026-29ea-03181516d0c7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1658645c-72ef-9026-29ea-03181516d0c7.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1a697faa-3f69-734d-b9e9-a88f8728ae11.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1a697faa-3f69-734d-b9e9-a88f8728ae11.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1db1ecb1-a758-52f5-3316-040497a5373b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1db1ecb1-a758-52f5-3316-040497a5373b.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2149b3d5-33b0-04a4-5b9d-940ee45b9c20.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2149b3d5-33b0-04a4-5b9d-940ee45b9c20.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2d73258f-1ac3-0469-4950-981727d29c9e.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2d73258f-1ac3-0469-4950-981727d29c9e.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2dbac3b3-6a95-3221-55ae-cc0e5a52d875.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2dbac3b3-6a95-3221-55ae-cc0e5a52d875.htm
@@ -487,6 +539,8 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4b4b0e74-d186-b813-7bf6-27e54f235904.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4b4b0e74-d186-b813-7bf6-27e54f235904.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4d86bb13-3a8c-10e2-8557-19aedf367498.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4d86bb13-3a8c-10e2-8557-19aedf367498.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\5408de19-39d0-3792-d51b-dce5bec31bbb.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\5408de19-39d0-3792-d51b-dce5bec31bbb.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\558c060e-f773-5f60-6a64-2ccd6316e6df.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\558c060e-f773-5f60-6a64-2ccd6316e6df.htm
@@ -498,6 +552,8 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\63729680-7b0b-c46d-0ce0-76689366c9f5.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\63729680-7b0b-c46d-0ce0-76689366c9f5.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\67cb7fac-e808-e34e-fd95-35648f806606.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\67cb7fac-e808-e34e-fd95-35648f806606.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\6b4be4fe-95a6-f8be-6d44-8f71332ca5ae.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\6b4be4fe-95a6-f8be-6d44-8f71332ca5ae.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\70a12afc-1bcf-5718-057a-02eb735fed71.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\70a12afc-1bcf-5718-057a-02eb735fed71.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7bc87366-7f99-0dc3-7a55-2aea2cda8d7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7bc87366-7f99-0dc3-7a55-2aea2cda8d7d.htm
@@ -521,13 +577,17 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a3176d19-e9c4-83c8-c1b3-e7c947b18074.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a3176d19-e9c4-83c8-c1b3-e7c947b18074.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a3ad7d27-1d3f-9856-1252-36ea41e68473.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a3ad7d27-1d3f-9856-1252-36ea41e68473.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a51d835f-3e4e-1857-041f-9988ba63e76e.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a51d835f-3e4e-1857-041f-9988ba63e76e.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a73ee574-de37-59fa-19ed-73b951c5f4c7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a73ee574-de37-59fa-19ed-73b951c5f4c7.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\abe51118-43d8-518c-7593-13c2c6c35e46.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\abe51118-43d8-518c-7593-13c2c6c35e46.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ac2cf83f-3eb7-e9fa-4850-156ec05ffd40.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ac2cf83f-3eb7-e9fa-4850-156ec05ffd40.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ace9add3-8fa2-f202-16e6-a77c1decc599.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ace9add3-8fa2-f202-16e6-a77c1decc599.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\af7dda35-5357-d117-dbc0-90e7b70c8e02.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\af7dda35-5357-d117-dbc0-90e7b70c8e02.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b1f1fa5b-6694-1d99-346c-20fd5048a597.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b1f1fa5b-6694-1d99-346c-20fd5048a597.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b628e67e-296e-9f32-1c92-7994d54534b8.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b628e67e-296e-9f32-1c92-7994d54534b8.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b65e834e-02bd-3ce8-98e0-f66b0db1c62c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b65e834e-02bd-3ce8-98e0-f66b0db1c62c.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b6810fa6-de76-57fc-da63-db858dde6eed.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b6810fa6-de76-57fc-da63-db858dde6eed.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b730ecd8-46a6-2c56-db68-7e81b39b1593.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b730ecd8-46a6-2c56-db68-7e81b39b1593.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm
@@ -540,6 +600,7 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c428715d-e7e0-5536-8a0e-c79328ae5223.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c428715d-e7e0-5536-8a0e-c79328ae5223.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c48076d6-9b84-5adf-2909-9236d3c18245.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c48076d6-9b84-5adf-2909-9236d3c18245.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c66633aa-27db-62f1-3f20-f467b09bcedd.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c66633aa-27db-62f1-3f20-f467b09bcedd.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c7410bff-e005-4b1c-c126-adaadc74b217.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c7410bff-e005-4b1c-c126-adaadc74b217.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm
@@ -548,8 +609,12 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\cc4fe778-bb50-5608-7793-11bb7fc8c763.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\cc4fe778-bb50-5608-7793-11bb7fc8c763.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\d42968e7-ea73-eb40-45b9-78f020b66fec.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\d42968e7-ea73-eb40-45b9-78f020b66fec.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\d67f536f-f364-8546-d664-fa9bf32ca615.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\d67f536f-f364-8546-d664-fa9bf32ca615.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\dbe8e64d-28c4-9dc3-f31f-fcef3e04dc9d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\dbe8e64d-28c4-9dc3-f31f-fcef3e04dc9d.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\dc2efae2-b26a-85d2-589d-3919abcee719.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\dc2efae2-b26a-85d2-589d-3919abcee719.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\deb82548-dab1-b662-1968-d610b86ba866.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\deb82548-dab1-b662-1968-d610b86ba866.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm
+E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e82808f0-24fb-148f-1283-986890d14987.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e82808f0-24fb-148f-1283-986890d14987.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e900c736-7e50-1345-19e0-92a565e82f0b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e900c736-7e50-1345-19e0-92a565e82f0b.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e9367322-1afa-ff62-3fd5-b5b5b7baf6f6.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e9367322-1afa-ff62-3fd5-b5b5b7baf6f6.htm
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm
@@ -632,15 +697,15 @@ E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Websit
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-CN.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-zh-CN.css
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-TW.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-zh-TW.css
 E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding.css
-    Last step completed in 00:00:00.6250
+    Last step completed in 00:00:01.1731
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0930
+    Last step completed in 00:00:00.5710
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/10/2013 01:41 PM.  Total time: 00:00:51.7110
+Build completed successfully at 04/11/2013 03:19 PM.  Total time: 00:01:00.3365
 
 </buildStep>
 </shfbBuild>

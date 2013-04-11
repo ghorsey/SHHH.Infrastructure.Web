@@ -36,6 +36,7 @@
   </HelpKINode>
   <HelpKINode Title="BasicRoleProvider&lt;T&gt;.BasicRoleProvider constructor" Url="html/83161039-9264-52d7-62a7-7065509c3f6c.htm" />
   <HelpKINode Title="BasicRoleProvider&lt;T&gt;.IsInRole method" Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
+  <HelpKINode Title="Binders property" Url="html/a73ee574-de37-59fa-19ed-73b951c5f4c7.htm" />
   <HelpKINode Title="Bootstrapper class" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
   <HelpKINode Title="Bootstrapper class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
   <HelpKINode Title="Bootstrapper class">
@@ -134,8 +135,10 @@
   <HelpKINode Title="GetAll(Of T) method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
   <HelpKINode Title="GetAll&lt;T&gt; method" Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
   <HelpKINode Title="GetAll&lt;T&gt; method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
+  <HelpKINode Title="GetBinder method" Url="html/1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm" />
   <HelpKINode Title="GetBootstrapTasksFrom method" Url="html/1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm" />
   <HelpKINode Title="GetControllerType method" Url="html/59ef8878-4a82-2d8a-c979-b829ad2a31c2.htm" />
+  <HelpKINode Title="GetDocumentation method" Url="html/50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm" />
   <HelpKINode Title="GetMethodName(Of T, U) method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="GetMethodName&lt;T, U&gt; method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="GetRedirectUrl method" Url="html/63729680-7b0b-c46d-0ce0-76689366c9f5.htm" />
@@ -281,6 +284,12 @@
   <HelpKINode Title="SHHH.Infrastructure.Web.Html namespace" Url="html/c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http namespace" Url="html/6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation namespace" Url="html/dc2efae2-b26a-85d2-589d-3919abcee719.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider class" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider class" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider&lt;T&gt; interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
@@ -303,4 +312,26 @@
   <HelpKINode Title="TestHttpRoute&lt;T, U&gt; method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
   <HelpKINode Title="TestRouteFromRouteData method" Url="html/c66633aa-27db-62f1-3f20-f467b09bcedd.htm" />
   <HelpKINode Title="TestRouteFromUrl method" Url="html/bf02a811-6926-47b1-9433-0419e937d9db.htm" />
+  <HelpKINode Title="WebApiModelBinderProvider class" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
+  <HelpKINode Title="WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
+  <HelpKINode Title="WebApiModelBinderProvider class">
+    <HelpKINode Title="about WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
+    <HelpKINode Title="all members" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
+    <HelpKINode Title="constructor" Url="html/d67f536f-f364-8546-d664-fa9bf32ca615.htm" />
+    <HelpKINode Title="methods" Url="html/ac2cf83f-3eb7-e9fa-4850-156ec05ffd40.htm" />
+    <HelpKINode Title="properties" Url="html/b65e834e-02bd-3ce8-98e0-f66b0db1c62c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebApiModelBinderProvider.Binders property" Url="html/a73ee574-de37-59fa-19ed-73b951c5f4c7.htm" />
+  <HelpKINode Title="WebApiModelBinderProvider.GetBinder method" Url="html/1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm" />
+  <HelpKINode Title="WebApiModelBinderProvider.WebApiModelBinderProvider constructor" Url="html/d67f536f-f364-8546-d664-fa9bf32ca615.htm" />
+  <HelpKINode Title="XmlCommentDocumentationProvider class" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
+  <HelpKINode Title="XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
+  <HelpKINode Title="XmlCommentDocumentationProvider class">
+    <HelpKINode Title="about XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
+    <HelpKINode Title="all members" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
+    <HelpKINode Title="constructor" Url="html/0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm" />
+    <HelpKINode Title="methods" Url="html/e82808f0-24fb-148f-1283-986890d14987.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XmlCommentDocumentationProvider.GetDocumentation method" Url="html/50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm" />
+  <HelpKINode Title="XmlCommentDocumentationProvider.XmlCommentDocumentationProvider constructor" Url="html/0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm" />
 </HelpKI>
