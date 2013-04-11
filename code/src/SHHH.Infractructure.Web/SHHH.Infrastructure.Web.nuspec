@@ -11,7 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      Bug fix: Made the HtmlHelperExtensions.Javascript method an extension method
+      * Added XmlCommentDocumentProvider for generating web api documentation
+      * Added WebApiModelBinderProvider
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
