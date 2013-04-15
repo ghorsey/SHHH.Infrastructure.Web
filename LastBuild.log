@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/11/2013 3:18:00 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/15/2013 9:33:36 AM">
 <buildStep step="Initializing">
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
-    Not all prior output was removed from &#39;E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\&#39;: The process cannot access the file &#39;manifest.xml&#39; because it is being used by another process.
-</buildStep>
-<buildStep step="FindingTools">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj
-    Found project &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj&#39;
-Source: E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj
-    Found project &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj&#39;
-Source: E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj
-    Found project &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj&#39;
-Source: E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj
-    Found project &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj&#39;
+Source: E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj
+    Found project &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj&#39;
+Source: E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj
+    Found project &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj&#39;
+Source: E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj
+    Found project &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj&#39;
+Source: E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj
+    Found project &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.dll&#39;
 
 References to include (excluding framework assemblies):
     Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
@@ -43,10 +37,10 @@ References to include (excluding framework assemblies):
     System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
 
 Copying XML comments files
-    E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.xml -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.xml
-    E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.xml -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.xml
-    E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml
-    E:\Users\Geoff\Projects\SHHH\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.xml -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Testing.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Testing.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
@@ -54,19 +48,19 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-  MRefBuilder (v2.7.1.0)
+  MRefBuilder (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 4 assemblies for reflection and 14 dependency assemblies.
-  Info: Wrote information on 8 namespaces, 17 types, and 54 members
-  XslTransform (v2.7.1.0)
+  Info: Wrote information on 8 namespaces, 17 types, and 55 members
+  XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:01.7331
+    Last step completed in 00:00:01.0461
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
@@ -77,223 +71,222 @@ Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.1730
+    Last step completed in 00:00:00.1330
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-  XslTransform (v2.7.1.0)
+  XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  XslTransform (v2.7.1.0)
+  XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Error : The output file &#39;manifest.xml&#39; could not be loaded. The error is: The process cannot access the file &#39;E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\manifest.xml&#39; because it is being used by another process. [E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\TransformManifest.proj]
-    Last step completed in 00:00:01.0841
+    Last step completed in 00:00:00.7260
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.0220
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\1_404_bullet.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\1_404_bullet.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\2_404_bullet.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\2_404_bullet.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_caution.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_caution.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_note.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_note.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_security.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_security.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\CFW.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\close.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\close.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\favicon.ico -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\footer_slice.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\footer_slice.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\info_icon.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\info_icon.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\note.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\note.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\online_icon.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\online_icon.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\open.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\open.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pencil.GIF -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pencil.GIF
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protoperator.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\puboperator.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\search.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\search_bk.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search_bk.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\security.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\security.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\slMobile.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\static.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\tabLeftBG.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabLeftBG.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\tabRightBG.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabRightBG.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\ui_om_collapse.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_collapse.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\ui_om_expand.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_expand.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\xna.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\scripts\branding.js -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-cs-CZ.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-de-DE.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-en-US.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-es-ES.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-fr-FR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-it-IT.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ja-JP.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ko-KR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-pl-PL.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-pt-BR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ru-RU.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-tr-TR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-zh-CN.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-zh-TW.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\1_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\2_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\close.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\footer_slice.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\info_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\online_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\open.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search_bk.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabLeftBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabRightBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_expand.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding.css
 Copying help branding...
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\branding\
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/body.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\body.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/head.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\head.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/CodeSnippet.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\CodeSnippet.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/Identity.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\Identity.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/InstrumentedLink.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\InstrumentedLink.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/LanguageSpecificText.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\LanguageSpecificText.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\index-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\search-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\toc-zh-TW.xslt
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\branding\
-C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding.xml -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding.xml
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-cs-CZ.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-cs-CZ.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-de-DE.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-de-DE.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-en-US.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-en-US.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-es-ES.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-es-ES.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-fr-FR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-fr-FR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-it-IT.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-it-IT.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ja-JP.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ja-JP.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ko-KR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ko-KR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-pl-PL.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-pl-PL.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-pt-BR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-pt-BR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ru-RU.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ru-RU.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-tr-TR.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-tr-TR.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-zh-CN.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-zh-CN.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-zh-TW.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\branding-zh-TW.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-body.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-body.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-head.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-head.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-foot.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-foot.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-collapsibleArea.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-collapsibleArea.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-instrumentedLink.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-languageSpecificText.xslt
-    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:01.1831
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\body.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\head.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\CodeSnippet.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\codesnippet-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\Identity.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\InstrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\instrumentedlink-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\LanguageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\MultiViewTable-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\index-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\search-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\toc-zh-TW.xslt
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding.xml
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\branding-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-body.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-head.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-foot.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-collapsibleArea.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-instrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-languageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-codesnippet.xslt
+    Last step completed in 00:00:00.1520
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -307,141 +300,151 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-  XslTransform (v2.7.1.0)
+  XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3240
+    Last step completed in 00:00:00.2200
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\sandcastle.config
-    Last step completed in 00:00:00.2520
+E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\sandcastle.config
+    Last step completed in 00:00:00.2050
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-  BuildAssembler (v2.7.1.0)
+  BuildAssembler (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loading configuration...
   Info: Processing topics...
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestRouteFromUrl(System.String,System.String,System.String)
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
-  Info: Processed 124 topics
-    Last step completed in 00:00:52.0340
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.#ctor(System.Web.Mvc.IDependencyResolver)] Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.#ctor(System.Web.Mvc.IDependencyResolver)] Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.#ctor(System.Web.Mvc.IDependencyResolver)] Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter.#ctor(System.Web.Mvc.IDependencyResolver)] Unknown reference link target &#39;T:System.Web.Mvc.IDependencyResolver&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ShowMissingComponent: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Stylesheet(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Stylesheet(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Stylesheet(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Stylesheet(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Stylesheet(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.ModelBinderProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider] Unknown reference link target &#39;M:System.Web.Http.ModelBinding.ModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.Binders] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.Binders] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.Binders] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.Binders] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.Binders] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.ModelBinding.IModelBinder&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider.GetBinder(System.Web.Http.HttpConfiguration,System.Type)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Description.IDocumentationProvider&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Overload:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Overload:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpActionDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;T:System.Web.Http.Controllers.HttpParameterDescriptor&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Unknown reference link target &#39;M:System.Web.Http.Description.IDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.String,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ShowMissingComponent: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestRouteFromUrl(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
+  Info: Processed 125 topics
+    Last step completed in 00:00:34.2020
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -452,260 +455,43 @@ Clearing any prior web output
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-Sandcastle Help File Builder, version 1.9.5.0
+Sandcastle Help File Builder, version 1.9.6.0
 Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website
-Processed 124 HTML files
+Processing website files in E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\Output\Website
+Processed 125 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\WebKI.xml
-Saving website table of contents to E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\WebTOC.xml
-    Last step completed in 00:00:00.8851
+Saving website keyword index to E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\WebKI.xml
+Saving website table of contents to E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\WebTOC.xml
+    Last step completed in 00:00:00.6790
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.6970
+    Last step completed in 00:00:00.3140
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_100.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_100.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_101.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_101.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_102.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_102.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_103.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_103.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_104.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_104.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_105.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_105.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_106.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_106.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_107.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_107.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_108.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_108.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_109.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_109.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_110.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_110.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_111.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_111.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_112.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_112.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_114.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_114.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_115.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_115.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_116.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_116.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_117.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_117.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_118.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_118.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_119.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_119.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_120.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_120.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_97.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_97.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_98.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_98.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_99.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_99.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\fti\FTI_Files.json -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\fti\FTI_Files.json
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0683458b-ca4f-d7a7-5c19-3cec5d39bb40.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0683458b-ca4f-d7a7-5c19-3cec5d39bb40.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\06ed42e0-4ce6-3e13-b089-a712032a82b9.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\06ed42e0-4ce6-3e13-b089-a712032a82b9.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\088dac01-4be9-3778-f017-433db474630d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\088dac01-4be9-3778-f017-433db474630d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\096ad4d2-5686-af06-aca4-7904229d2f7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\096ad4d2-5686-af06-aca4-7904229d2f7d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\099d1ef8-0f60-4958-e7d2-56e1288e85ab.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\099d1ef8-0f60-4958-e7d2-56e1288e85ab.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0a4f51ae-7cda-ad3a-53e0-40e3888bc5e8.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0a4f51ae-7cda-ad3a-53e0-40e3888bc5e8.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\13818f41-3b9a-c338-6179-1fc302e3ee09.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\13818f41-3b9a-c338-6179-1fc302e3ee09.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1658645c-72ef-9026-29ea-03181516d0c7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1658645c-72ef-9026-29ea-03181516d0c7.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1a697faa-3f69-734d-b9e9-a88f8728ae11.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1a697faa-3f69-734d-b9e9-a88f8728ae11.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1db1ecb1-a758-52f5-3316-040497a5373b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1db1ecb1-a758-52f5-3316-040497a5373b.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2149b3d5-33b0-04a4-5b9d-940ee45b9c20.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2149b3d5-33b0-04a4-5b9d-940ee45b9c20.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2d73258f-1ac3-0469-4950-981727d29c9e.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2d73258f-1ac3-0469-4950-981727d29c9e.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2dbac3b3-6a95-3221-55ae-cc0e5a52d875.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2dbac3b3-6a95-3221-55ae-cc0e5a52d875.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\2ed88937-f6a6-6b82-0b91-bdf2a426f8f0.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\2ed88937-f6a6-6b82-0b91-bdf2a426f8f0.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\3473ad92-7dea-e4bf-63b1-66707a0a0aca.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\3473ad92-7dea-e4bf-63b1-66707a0a0aca.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\37ae0212-bdfc-aadb-ed47-2a16ae0df8fe.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\37ae0212-bdfc-aadb-ed47-2a16ae0df8fe.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\3c22a5e4-cc7c-cef1-7f4d-e5c83511d828.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\3c22a5e4-cc7c-cef1-7f4d-e5c83511d828.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\416fe2ad-367c-4af8-2dae-badcf7825b09.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\416fe2ad-367c-4af8-2dae-badcf7825b09.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\438ba543-b52b-5760-285d-515263f29811.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\438ba543-b52b-5760-285d-515263f29811.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\44783d55-0ee4-1773-414c-5903e2c8e609.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\44783d55-0ee4-1773-414c-5903e2c8e609.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4610bc93-e5da-a422-916d-e0fa2429a44a.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4610bc93-e5da-a422-916d-e0fa2429a44a.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\47fd737d-a403-89cc-2508-0221ca1e5bf2.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\47fd737d-a403-89cc-2508-0221ca1e5bf2.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4b4b0e74-d186-b813-7bf6-27e54f235904.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4b4b0e74-d186-b813-7bf6-27e54f235904.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\4d86bb13-3a8c-10e2-8557-19aedf367498.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\4d86bb13-3a8c-10e2-8557-19aedf367498.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\5408de19-39d0-3792-d51b-dce5bec31bbb.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\5408de19-39d0-3792-d51b-dce5bec31bbb.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\558c060e-f773-5f60-6a64-2ccd6316e6df.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\558c060e-f773-5f60-6a64-2ccd6316e6df.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\568ca9cb-b77b-2977-b2be-b729a3c06204.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\568ca9cb-b77b-2977-b2be-b729a3c06204.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\59ef8878-4a82-2d8a-c979-b829ad2a31c2.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\59ef8878-4a82-2d8a-c979-b829ad2a31c2.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\5b6e7529-5ef6-4430-1ffc-578bf75710a6.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\5b6e7529-5ef6-4430-1ffc-578bf75710a6.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\5b7fe4a3-36d5-9848-901e-b1056089717a.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\5b7fe4a3-36d5-9848-901e-b1056089717a.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\608640ca-971f-cccf-cfd6-26e3b362ee1a.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\608640ca-971f-cccf-cfd6-26e3b362ee1a.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\63729680-7b0b-c46d-0ce0-76689366c9f5.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\63729680-7b0b-c46d-0ce0-76689366c9f5.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\67cb7fac-e808-e34e-fd95-35648f806606.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\67cb7fac-e808-e34e-fd95-35648f806606.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\6b4be4fe-95a6-f8be-6d44-8f71332ca5ae.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\6b4be4fe-95a6-f8be-6d44-8f71332ca5ae.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\70a12afc-1bcf-5718-057a-02eb735fed71.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\70a12afc-1bcf-5718-057a-02eb735fed71.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7bc87366-7f99-0dc3-7a55-2aea2cda8d7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7bc87366-7f99-0dc3-7a55-2aea2cda8d7d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7c947b87-7706-fea6-c539-1b7e00008f46.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7c947b87-7706-fea6-c539-1b7e00008f46.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\83161039-9264-52d7-62a7-7065509c3f6c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\83161039-9264-52d7-62a7-7065509c3f6c.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\841a5d44-d319-dcf1-f369-d19d0dc8b221.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\841a5d44-d319-dcf1-f369-d19d0dc8b221.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\86563f90-2518-bcc7-cead-ccdc060248cc.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\86563f90-2518-bcc7-cead-ccdc060248cc.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\8690364d-3f0a-85fd-0693-cc3a14b332cc.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\8690364d-3f0a-85fd-0693-cc3a14b332cc.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\8d1dd465-cd40-19a6-6374-6890b0104f66.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\8d1dd465-cd40-19a6-6374-6890b0104f66.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\96653ae7-5903-0630-a472-60f0338deecd.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\96653ae7-5903-0630-a472-60f0338deecd.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\96de85e4-77ce-c81f-98cb-2571f55ecfb2.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\96de85e4-77ce-c81f-98cb-2571f55ecfb2.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9744e3b7-6726-dfb3-73a1-e6efcd4f5786.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9744e3b7-6726-dfb3-73a1-e6efcd4f5786.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\98aefe84-5817-fb17-17f1-6edaf72087fd.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\98aefe84-5817-fb17-17f1-6edaf72087fd.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9b03c720-135a-1b5e-e842-a5d7a9695798.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9b03c720-135a-1b5e-e842-a5d7a9695798.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9cfb9059-c2d1-a1c2-27f4-9c9292b22197.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9cfb9059-c2d1-a1c2-27f4-9c9292b22197.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\9f89233f-48e1-00af-c250-9da69fa4cb94.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\9f89233f-48e1-00af-c250-9da69fa4cb94.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a3176d19-e9c4-83c8-c1b3-e7c947b18074.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a3176d19-e9c4-83c8-c1b3-e7c947b18074.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a3ad7d27-1d3f-9856-1252-36ea41e68473.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a3ad7d27-1d3f-9856-1252-36ea41e68473.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a51d835f-3e4e-1857-041f-9988ba63e76e.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a51d835f-3e4e-1857-041f-9988ba63e76e.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a73ee574-de37-59fa-19ed-73b951c5f4c7.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a73ee574-de37-59fa-19ed-73b951c5f4c7.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\abe51118-43d8-518c-7593-13c2c6c35e46.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\abe51118-43d8-518c-7593-13c2c6c35e46.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ac2cf83f-3eb7-e9fa-4850-156ec05ffd40.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ac2cf83f-3eb7-e9fa-4850-156ec05ffd40.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ace9add3-8fa2-f202-16e6-a77c1decc599.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ace9add3-8fa2-f202-16e6-a77c1decc599.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\af7dda35-5357-d117-dbc0-90e7b70c8e02.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\af7dda35-5357-d117-dbc0-90e7b70c8e02.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b1f1fa5b-6694-1d99-346c-20fd5048a597.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b1f1fa5b-6694-1d99-346c-20fd5048a597.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b628e67e-296e-9f32-1c92-7994d54534b8.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b628e67e-296e-9f32-1c92-7994d54534b8.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b65e834e-02bd-3ce8-98e0-f66b0db1c62c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b65e834e-02bd-3ce8-98e0-f66b0db1c62c.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b6810fa6-de76-57fc-da63-db858dde6eed.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b6810fa6-de76-57fc-da63-db858dde6eed.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b730ecd8-46a6-2c56-db68-7e81b39b1593.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b730ecd8-46a6-2c56-db68-7e81b39b1593.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b88cfabd-e789-5f42-9ce6-5f10a4d8f193.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b88cfabd-e789-5f42-9ce6-5f10a4d8f193.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\b99e7d36-addb-7fb0-552d-eaa55f605c02.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\b99e7d36-addb-7fb0-552d-eaa55f605c02.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\bb6511ff-1cc6-0fae-27b4-f2b13927ef07.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\bb6511ff-1cc6-0fae-27b4-f2b13927ef07.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\bc157870-9897-14df-0676-efd216b3b75b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\bc157870-9897-14df-0676-efd216b3b75b.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\bf02a811-6926-47b1-9433-0419e937d9db.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\bf02a811-6926-47b1-9433-0419e937d9db.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c14e5f9f-7fb3-18a0-9ea2-a8f331e7b375.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c14e5f9f-7fb3-18a0-9ea2-a8f331e7b375.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c428715d-e7e0-5536-8a0e-c79328ae5223.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c428715d-e7e0-5536-8a0e-c79328ae5223.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c48076d6-9b84-5adf-2909-9236d3c18245.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c48076d6-9b84-5adf-2909-9236d3c18245.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c66633aa-27db-62f1-3f20-f467b09bcedd.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c66633aa-27db-62f1-3f20-f467b09bcedd.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c7410bff-e005-4b1c-c126-adaadc74b217.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c7410bff-e005-4b1c-c126-adaadc74b217.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\c7b8929d-1b87-cc87-b201-1a53b38b643c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\c7b8929d-1b87-cc87-b201-1a53b38b643c.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\cbb34196-5f20-af1c-d1cc-4969382c5389.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\cbb34196-5f20-af1c-d1cc-4969382c5389.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\cc4fe778-bb50-5608-7793-11bb7fc8c763.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\cc4fe778-bb50-5608-7793-11bb7fc8c763.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\d42968e7-ea73-eb40-45b9-78f020b66fec.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\d42968e7-ea73-eb40-45b9-78f020b66fec.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\d67f536f-f364-8546-d664-fa9bf32ca615.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\d67f536f-f364-8546-d664-fa9bf32ca615.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\dbe8e64d-28c4-9dc3-f31f-fcef3e04dc9d.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\dbe8e64d-28c4-9dc3-f31f-fcef3e04dc9d.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\dc2efae2-b26a-85d2-589d-3919abcee719.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\dc2efae2-b26a-85d2-589d-3919abcee719.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\deb82548-dab1-b662-1968-d610b86ba866.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\deb82548-dab1-b662-1968-d610b86ba866.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e82808f0-24fb-148f-1283-986890d14987.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e82808f0-24fb-148f-1283-986890d14987.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e900c736-7e50-1345-19e0-92a565e82f0b.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e900c736-7e50-1345-19e0-92a565e82f0b.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e9367322-1afa-ff62-3fd5-b5b5b7baf6f6.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e9367322-1afa-ff62-3fd5-b5b5b7baf6f6.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\eb55d190-6e50-a07c-a899-a7cf1aa1756e.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\eb55d190-6e50-a07c-a899-a7cf1aa1756e.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ee313a68-5462-6d91-56ed-cd6980380b13.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ee313a68-5462-6d91-56ed-cd6980380b13.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ee718a34-164e-b097-a135-234e0b6574b8.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ee718a34-164e-b097-a135-234e0b6574b8.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\f2732e28-686f-37b9-7abd-c7a4cb9f07d0.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\f2732e28-686f-37b9-7abd-c7a4cb9f07d0.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\f53ce402-e844-85a3-b92d-161b8c035042.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\f53ce402-e844-85a3-b92d-161b8c035042.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\html\fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\html\fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\1_404_bullet.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\1_404_bullet.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\2_404_bullet.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\2_404_bullet.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_caution.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\alert_caution.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_note.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\alert_note.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\alert_security.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\alert_security.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\CFW.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\CFW.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\close.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\close.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\favicon.ico -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\favicon.ico
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\footer_slice.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\footer_slice.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\info_icon.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\info_icon.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\note.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\note.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\online_icon.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\online_icon.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\open.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\open.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pencil.GIF -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pencil.GIF
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privclass.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privdelegate.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privenumeration.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privevent.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privextension.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privfield.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privinterface.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privmethod.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privproperty.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\privstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\privstructure.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protclass.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protdelegate.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protenumeration.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protevent.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protextension.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protfield.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protinterface.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protmethod.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protoperator.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protoperator.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protproperty.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\protstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\protstructure.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubclass.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubclass.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubdelegate.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubdelegate.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubenumeration.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubenumeration.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubevent.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubevent.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubextension.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubextension.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubfield.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubfield.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubinterface.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubinterface.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubmethod.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubmethod.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\puboperator.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\puboperator.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubproperty.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubproperty.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\pubstructure.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\pubstructure.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\search.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\search_bk.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\search_bk.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\security.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\security.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\slMobile.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\slMobile.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\static.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\static.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabLeftBG.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\tabLeftBG.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\tabRightBG.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\tabRightBG.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_collapse.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\ui_om_collapse.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\ui_om_expand.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\ui_om_expand.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\icons\xna.gif -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\icons\xna.gif
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\scripts\branding.js -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\scripts\branding.js
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-cs-CZ.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-cs-CZ.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-de-DE.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-de-DE.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-en-US.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-en-US.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-es-ES.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-es-ES.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-fr-FR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-fr-FR.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-it-IT.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-it-IT.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ja-JP.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-ja-JP.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ko-KR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-ko-KR.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pl-PL.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-pl-PL.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-pt-BR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-pt-BR.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-ru-RU.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-ru-RU.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-tr-TR.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-tr-TR.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-CN.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-zh-CN.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding-zh-TW.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding-zh-TW.css
-E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\Working\Output\Website\styles\branding.css -&gt; E:\Users\Geoff\Projects\SHHH\_docs\SHHH.Infrastructure.Web\styles\branding.css
-    Last step completed in 00:00:01.1731
+Copied 100 files
+Copied 200 files
+Copied 221 files for the website content
+    Last step completed in 00:00:00.1890
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.5710
+    Last step completed in 00:00:00.1030
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/11/2013 03:19 PM.  Total time: 00:01:00.3365
+Build completed successfully at 04/15/2013 09:34 AM.  Total time: 00:00:38.1372
 
 </buildStep>
 </shfbBuild>

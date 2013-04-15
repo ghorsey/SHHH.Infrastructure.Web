@@ -151,6 +151,7 @@
     <HelpKINode Title="methods" Url="html/4610bc93-e5da-a422-916d-e0fa2429a44a.htm" />
   </HelpKINode>
   <HelpKINode Title="HtmlHelperExtensions.Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
   <HelpKINode Title="HtmlHelperExtensions.Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
   <HelpKINode Title="HttpConfiguration property" Url="html/c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm" />
   <HelpKINode Title="IBootstrapTask interface" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
@@ -206,6 +207,7 @@
   <HelpKINode Title="IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
   <HelpKINode Title="IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
   <HelpKINode Title="Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
+  <HelpKINode Title="Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
   <HelpKINode Title="Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
