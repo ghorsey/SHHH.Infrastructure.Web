@@ -4,10 +4,13 @@
 
 namespace SHHH.Infrastructure.Web.Html
 {
-    using System.Diagnostics;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Web;
-    using System.Web.Mvc;
+    using System;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Web;
+using System.Web.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Html Helper extensions
@@ -106,6 +109,28 @@ namespace SHHH.Infrastructure.Web.Html
             builder.MergeAttribute("src", src);
 
             return new HtmlString(builder.ToString());
+        }
+
+        /// <summary>
+        /// Jsons the specified helper.
+        /// </summary>
+        /// <param name="helper">The helper.</param>
+        /// <param name="value">The value.</param>
+        /// <param name="setSettings">The set settings.</param>
+        /// <returns>
+        ///   <see cref="System.Web.HtmlString" />
+        /// </returns>
+        public static HtmlString Json(this HtmlHelper helper, object value, Action<JsonSerializerSettings> setSettings = null)
+        {
+            var settings = new JsonSerializerSettings();
+            settings.Converters.Add(new StringEnumConverter());
+
+            if (setSettings != null)
+            {
+                setSettings(settings);
+            }
+
+            return new HtmlString(JsonConvert.SerializeObject(value));
         }
     }
 }
