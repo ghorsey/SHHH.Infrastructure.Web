@@ -29,12 +29,13 @@
     <HelpAttributes />
     <NamespaceSummaries>
       <NamespaceSummaryItem name="SHHH.Infrastructure.Web" isDocumented="True">Contains classes to assist in authentication</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="SHHH.Infrastructure.Web.Bootstrap" isDocumented="True">Contains classes to assist bootstrapping a web application</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver" isDocumented="True">Contains a depencency resolver adapter for dependency injection</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="SHHH.Infrastructure.Web.FormsAuthentication" isDocumented="True">Contains FormsAuthentication Adapter to encapsulate the static System.Web.Security.FormsAuthentication class</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="SHHH.Infrastructure.Web.Testing" isDocumented="True">Contains base classes to assist in unit testing web applications, specifically testing MVC and WebApi routes</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="SHHH.Infrastructure.Web.Html" isDocumented="True">Contains HTML helper extension methods</NamespaceSummaryItem>
-    </NamespaceSummaries>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Bootstrap" isDocumented="True">Contains classes to assist bootstrapping a web application</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver" isDocumented="True">Contains a depencency resolver adapter for dependency injection</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.FormsAuthentication" isDocumented="True">Contains FormsAuthentication Adapter to encapsulate the static System.Web.Security.FormsAuthentication class</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Testing" isDocumented="True">Contains base classes to assist in unit testing web applications, specifically testing MVC and WebApi routes</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Html" isDocumented="True">Contains HTML helper extension methods</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Http" isDocumented="True">Contains classes to ease the development of WebApi applications</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Infrastructure.Web.Http.Documentation" isDocumented="True">Contains classes to wrok with the  ApiExplorer for WebApi</NamespaceSummaryItem></NamespaceSummaries>
     <PlugInConfigurations />
     <BuildLogFile />
     <HtmlHelp1xCompilerPath />
@@ -43,8 +44,8 @@
     <WorkingPath />
     <SyntaxFilters>Standard</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
-    <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>VS2010</PresentationStyle>
+    <RootNamespaceContainer>True</RootNamespaceContainer>
+    <PresentationStyle>vs2010</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>Guid</NamingMethod>
     <HelpTitle>SHHH.Infrastructure.Web API documentation</HelpTitle>

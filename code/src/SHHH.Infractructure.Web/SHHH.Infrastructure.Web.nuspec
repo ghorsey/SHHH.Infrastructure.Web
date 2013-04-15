@@ -11,8 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Added new Html.Stylesheet(string, string) extension helper to add a "min" suffix when the debugger is not attached,
-      * Added new Html.Javascript(string, string) extension helper to add a "min" suffix when the debugger is not attached.
+      * Added XmlCommentDocumentProvider for generating web api documentation
+      * Added WebApiModelBinderProvider
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
