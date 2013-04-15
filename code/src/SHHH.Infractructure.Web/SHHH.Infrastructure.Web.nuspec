@@ -11,8 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Added XmlCommentDocumentProvider for generating web api documentation
-      * Added WebApiModelBinderProvider
+      * Added Html helper to serialize object to JSON Html Strings
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
