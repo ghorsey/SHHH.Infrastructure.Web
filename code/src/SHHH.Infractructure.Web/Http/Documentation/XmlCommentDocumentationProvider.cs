@@ -1,7 +1,11 @@
-﻿/*
- * Code based on: http://blogs.msdn.com/b/yaohuang1/archive/2012/05/21/asp-net-web-api-generating-a-web-api-help-page-using-apiexplorer.aspx
- * Original author: Yao
- */
+﻿// <copyright file="XmlCommentDocumentationProvider.cs" company="SHHH Innovations LLC">
+//     Copyright 2013 SHHH Innovations LLC
+// </copyright>
+//
+// Code based on: http://blogs.msdn.com/b/yaohuang1/archive/2012/05/21/asp-net-web-api-generating-a-web-api-help-page-using-apiexplorer.aspx
+// Original author: Yao
+// Mostly his code, just satisfying StyleCop
+
 namespace SHHH.Infrastructure.Web.Http.Documentation
 {
     using System;
@@ -34,7 +38,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// The generic type name regex
         /// </summary>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        private static Regex GenericTypeNameRegex = new Regex(@"^(.*?)`(\d+)\[(?:(?:,\s)?\[(.*?),[^\]]*\]){1,}\]", RegexOptions.IgnoreCase);
+        private static Regex genericTypeNameRegex = new Regex(@"^(.*?)`(\d+)\[(?:(?:,\s)?\[(.*?),[^\]]*\]){1,}\]", RegexOptions.IgnoreCase);
 
         /// <summary>
         /// The document navigator
@@ -132,7 +136,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
                 return string.Format("{0}{{{1}}}", result.Groups[1].Value, result.Groups[2].Value);
             }
 
-            result = GenericTypeNameRegex.Match(typeName);
+            result = genericTypeNameRegex.Match(typeName);
             if (result.Success)
             {
                 var count = Convert.ToInt32(result.Groups[2].Value);
@@ -146,6 +150,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
                         sb.AppendFormat(", {0}", result.Groups[3 + i].Value);
                     }
                 }
+
                 sb.Append("}");
 
                 return sb.ToString();

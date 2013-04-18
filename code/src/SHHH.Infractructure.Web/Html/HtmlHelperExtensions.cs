@@ -5,12 +5,12 @@
 namespace SHHH.Infrastructure.Web.Html
 {
     using System;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Web;
-using System.Web.Mvc;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
+    using System.Diagnostics;
+    using System.Diagnostics.CodeAnalysis;
+    using System.Web;
+    using System.Web.Mvc;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Html Helper extensions
@@ -95,16 +95,25 @@ using Newtonsoft.Json.Converters;
                 src = src.Substring(0, src.Length - 3);
             }
 
+            var debuggingSrc = string.Concat(src, ".js");
+            var releaseSrc = string.Concat(src, suffix, ".js");
+
+            return JavascriptSwitch(helper, debuggingSrc, releaseSrc);
+        }
+
+        /// <summary>
+        /// Produced a script tag which switches the SRC attribute depending on whether the debugger is attached.
+        /// </summary>
+        /// <param name="helper">The helper.</param>
+        /// <param name="debugingSrc">The SRC to use when the debugger is attached.</param>
+        /// <param name="releaseSrc">The SRC to use when the debugger is not attached.</param>
+        /// <returns>An HTML script tag</returns>
+        [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
+        public static HtmlString JavascriptSwitch(this HtmlHelper helper, string debugingSrc, string releaseSrc)
+        {
             var builder = new TagBuilder("script");
 
-            if (Debugger.IsAttached)
-            {
-                src = string.Concat(src, ".js");
-            }
-            else
-            {
-                src = string.Concat(src, suffix, ".js");
-            }
+            var src = Debugger.IsAttached ? debugingSrc : releaseSrc;
 
             builder.MergeAttribute("src", src);
 
@@ -112,13 +121,13 @@ using Newtonsoft.Json.Converters;
         }
 
         /// <summary>
-        /// Jsons the specified helper.
+        /// Serializes the value as a JSON object
         /// </summary>
         /// <param name="helper">The helper.</param>
         /// <param name="value">The value.</param>
         /// <param name="setSettings">The set settings.</param>
         /// <returns>
-        ///   <see cref="System.Web.HtmlString" />
+        /// The JSON representation of the value object
         /// </returns>
         public static HtmlString Json(this HtmlHelper helper, object value, Action<JsonSerializerSettings> setSettings = null)
         {
