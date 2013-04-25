@@ -43,6 +43,17 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\SHHH.Infrastructure.Web.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'BuildHelp|AnyCPU'">
+    <OutputPath>bin\BuildHelp\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\SHHH.Infrastructure.Web.Testing.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
@@ -63,14 +74,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\GlobalAssemblyInfo.cs">
-      <Link>Properties/GlobalAssemblyInfo.cs</Link>
-    </Compile>
+    <Compile Include="HttpRouteTestBase.cs" />
     <Compile Include="FakeRequestMessageExtensions.cs" />
     <Compile Include="RouteTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionHelper.cs" />
-    <Compile Include="RouteTestBase.cs" />
+    <Compile Include="MvcRouteTestBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\SHHH.Infrastructure.Web.snk">

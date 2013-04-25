@@ -6,25 +6,22 @@ namespace SHHH.Infrastructure.Web.Testing
 {
     using System;
     using System.Diagnostics;
-    using System.Linq.Expressions;
-    using System.Net.Http;
     using System.Web;
-    using System.Web.Http;
     using System.Web.Routing;
     using Moq;
     using NUnit.Framework;
 
     /// <summary>
-    /// A base class for testing web API routes
+    /// A base class for testing MVC routes
     /// </summary>
-    public abstract class RouteTestBase
+    public abstract class MvcRouteTestBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="RouteTestBase" /> class.
+        /// Initializes a new instance of the <see cref="MvcRouteTestBase" /> class.
         /// </summary>
         /// <param name="f">The f.</param>
         /// <exception cref="System.ArgumentNullException">Function to return routes cannot be null!</exception>
-        protected RouteTestBase(Func<RouteCollection> f)
+        protected MvcRouteTestBase(Func<RouteCollection> f)
         {
             if (f == null)
             {
@@ -35,79 +32,12 @@ namespace SHHH.Infrastructure.Web.Testing
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="RouteTestBase" /> class.
-        /// </summary>
-        /// <param name="f">The function.</param>
-        /// <exception cref="System.ArgumentNullException">Function to return routes and HTTP configuration cannot be null!</exception>
-        protected RouteTestBase(Func<Tuple<RouteCollection, HttpConfiguration>> f)
-        {
-            if (f == null)
-            {
-                throw new ArgumentNullException("Function to return routes and HTTP configuration cannot be null!");
-            }
-
-            var t = f();
-            this.Routes = t.Item1;
-            HttpConfiguration = t.Item2;
-        }
-
-        /// <summary>
         /// Gets the routes.
         /// </summary>
         /// <value>
         /// The routes.
         /// </value>
-        protected RouteCollection Routes { get; private set; }
-
-        /// <summary>
-        /// Gets the HTTP configuration.
-        /// </summary>
-        /// <value>
-        /// The HTTP configuration.
-        /// </value>
-        protected HttpConfiguration HttpConfiguration { get; private set; }
-
-        /// <summary>
-        /// Tests the HTTP route.
-        /// </summary>
-        /// <typeparam name="T">The type</typeparam>
-        /// <typeparam name="U">The result</typeparam>
-        /// <param name="method">The method.</param>
-        /// <param name="url">The URL.</param>
-        /// <param name="controllerType">Type of the controller.</param>
-        /// <param name="expression">The expression.</param>
-        /// <exception cref="System.InvalidOperationException">HttpConfiguration cannot be null!</exception>
-        /// <exception cref="System.Exception"></exception>
-        protected void TestHttpRoute<T, U>(HttpMethod method, string url, Type controllerType, Expression<Func<T, U>> expression)
-        {
-            if (HttpConfiguration == null)
-            {
-                throw new InvalidOperationException("HttpConfiguration cannot be null!");
-            }
-
-            if (!url.StartsWith("http") && !url.StartsWith("/"))
-            {
-                url = "/" + url;
-            }
-
-            if (!url.StartsWith("http"))
-            {
-                url = "http://localhost/" + url;
-            }
-
-            var request = new HttpRequestMessage(method, url);
-
-            var tester = new RouteTester(this.HttpConfiguration, request);
-            try
-            {
-                Assert.AreEqual(controllerType, tester.GetControllerType());
-                Assert.AreEqual(ReflectionHelper.GetMethodName(expression), tester.GetActionName());
-            }
-            catch (HttpResponseException x)
-            {
-                throw new Exception(x.Response.ToString(), x);
-            }
-        }
+        private RouteCollection Routes { get; set; }
 
         /// <summary>
         /// Tests the route from URL.
@@ -146,6 +76,7 @@ namespace SHHH.Infrastructure.Web.Testing
             Assert.AreEqual(expectedUrl, vpd.VirtualPath);
         }
 
+        #region Private Methods
         /// <summary>
         /// Commons the route data asserts.
         /// </summary>
@@ -222,5 +153,6 @@ namespace SHHH.Infrastructure.Web.Testing
         {
             return new RequestContext(this.CreateMockContext(url).Object, new RouteData());
         }
+        #endregion
     }
 }

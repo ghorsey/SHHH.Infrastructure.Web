@@ -11,13 +11,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Removed Allow Partially Trusted Callers
+      * Breaking change: separated MVC and Web Api unit testing into 2 base classes, MvcRouteTestBase and HttpRouteTestBase respectively
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
-    <tags>SHHH</tags>
-    <dependencies>
-        <dependency id="Moq" version="4.0.10827" />
-        <dependency id="NUnit" version="2.6.2" />
-    </dependencies>
+    <tags>SHHH UnitTest Mvc WebAPI</tags>
   </metadata>
 </package>

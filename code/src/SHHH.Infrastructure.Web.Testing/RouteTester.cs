@@ -49,11 +49,17 @@ namespace SHHH.Infrastructure.Web.Testing
         /// </summary>
         /// <param name="config">The HTTP configuration.</param>
         /// <param name="request">The request message.</param>
+        /// <exception cref="System.InvalidOperationException">Could not generate the route data for the rquest: {request url}.  Common pitfalls: a typo in Controller or Action name in the route definition, or using incorrectly using Http Verbs from System.Web.Mvc instead of System.Web.Http</exception>
         public RouteTester(HttpConfiguration config, HttpRequestMessage request)
         {
             this.config = config;
             this.request = request;
             this.routeData = this.config.Routes.GetRouteData(this.request);
+            if (this.routeData == null)
+            {
+                var msgFormat = "Could not generate the route data for the rquest: {0}.  Common pitfalls: a typo in Controller or Action name in the route definition, or using incorrectly using Http Verbs from System.Web.Mvc instead of System.Web.Http";
+                throw new InvalidOperationException(string.Format(msgFormat, this.request.ToString()));
+            }
             this.request.Properties[HttpPropertyKeys.HttpRouteDataKey] = this.routeData;
             this.controllerSelector = new DefaultHttpControllerSelector(this.config);
             this.controllerContext = new HttpControllerContext(this.config, this.routeData, this.request);

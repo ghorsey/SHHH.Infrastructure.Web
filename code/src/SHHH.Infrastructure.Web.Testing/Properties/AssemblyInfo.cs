@@ -2,6 +2,7 @@
 // Copyright SHHH Innovations LLC
 // </copyright>
 
+using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
@@ -21,3 +22,12 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("7b82e68c-b4b6-4c65-b9c9-6b2d9fe526f3")]
+
+[assembly: AssemblyCompany("SHHH Innovations LLC")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyTrademark("")]
+
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
+
+[assembly: CLSCompliant(true)]
