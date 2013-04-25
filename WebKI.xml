@@ -151,9 +151,20 @@
     <HelpKINode Title="methods" Url="html/4610bc93-e5da-a422-916d-e0fa2429a44a.htm" />
   </HelpKINode>
   <HelpKINode Title="HtmlHelperExtensions.Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.JavascriptSwitch method" Url="html/46098b08-a98e-4914-c522-d40e94e9436c.htm" />
   <HelpKINode Title="HtmlHelperExtensions.Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
   <HelpKINode Title="HtmlHelperExtensions.Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
-  <HelpKINode Title="HttpConfiguration property" Url="html/c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm" />
+  <HelpKINode Title="HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
+  <HelpKINode Title="HttpRouteTestBase class" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
+  <HelpKINode Title="HttpRouteTestBase class">
+    <HelpKINode Title="about HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
+    <HelpKINode Title="all members" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
+    <HelpKINode Title="constructor" Url="html/49e84b62-0cf0-d1bf-b72d-1ae43ac94024.htm" />
+    <HelpKINode Title="methods" Url="html/13e8a838-044d-5e8c-e8cd-1d3d13e9bc16.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpRouteTestBase.HttpRouteTestBase constructor" Url="html/49e84b62-0cf0-d1bf-b72d-1ae43ac94024.htm" />
+  <HelpKINode Title="HttpRouteTestBase.TestHttpRoute(Of T, U) method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
+  <HelpKINode Title="HttpRouteTestBase.TestHttpRoute&lt;T, U&gt; method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
   <HelpKINode Title="IBootstrapTask interface" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
   <HelpKINode Title="IBootstrapTask interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
   <HelpKINode Title="IBootstrapTask interface">
@@ -207,9 +218,21 @@
   <HelpKINode Title="IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
   <HelpKINode Title="IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
   <HelpKINode Title="Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
+  <HelpKINode Title="JavascriptSwitch method" Url="html/46098b08-a98e-4914-c522-d40e94e9436c.htm" />
   <HelpKINode Title="Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
   <HelpKINode Title="LoginUrl property" Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
+  <HelpKINode Title="MvcRouteTestBase class" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
+  <HelpKINode Title="MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
+  <HelpKINode Title="MvcRouteTestBase class">
+    <HelpKINode Title="about MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
+    <HelpKINode Title="all members" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
+    <HelpKINode Title="constructor" Url="html/2cac38ae-95e9-e7a6-3be7-c22a2fb54003.htm" />
+    <HelpKINode Title="methods" Url="html/7ff6fc45-f6bb-a6a4-ebd9-bd8ae6e9c6e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MvcRouteTestBase.MvcRouteTestBase constructor" Url="html/2cac38ae-95e9-e7a6-3be7-c22a2fb54003.htm" />
+  <HelpKINode Title="MvcRouteTestBase.TestRouteFromRouteData method" Url="html/098dbf92-9d62-5d27-c279-9cf5e6a0693e.htm" />
+  <HelpKINode Title="MvcRouteTestBase.TestRouteFromUrl method" Url="html/2eac67d9-5363-7152-796d-5c5328c16841.htm" />
   <HelpKINode Title="Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
   <HelpKINode Title="Reference property" Url="html/ace9add3-8fa2-f202-16e6-a77c1decc599.htm" />
   <HelpKINode Title="ReflectionHelper class" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
@@ -224,23 +247,6 @@
   <HelpKINode Title="ReflectionHelper.GetMethodName&lt;T, U&gt; method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="ReflectionHelper.ReflectionHelper constructor" Url="html/bc157870-9897-14df-0676-efd216b3b75b.htm" />
   <HelpKINode Title="RoleProvider property" Url="html/4b4b0e74-d186-b813-7bf6-27e54f235904.htm" />
-  <HelpKINode Title="Routes property" Url="html/0683458b-ca4f-d7a7-5c19-3cec5d39bb40.htm" />
-  <HelpKINode Title="RouteTestBase class" Url="html/b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm" />
-  <HelpKINode Title="RouteTestBase class" Url="html/e900c736-7e50-1345-19e0-92a565e82f0b.htm" />
-  <HelpKINode Title="RouteTestBase class">
-    <HelpKINode Title="about RouteTestBase class" Url="html/e900c736-7e50-1345-19e0-92a565e82f0b.htm" />
-    <HelpKINode Title="all members" Url="html/b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm" />
-    <HelpKINode Title="constructor" Url="html/438ba543-b52b-5760-285d-515263f29811.htm" />
-    <HelpKINode Title="methods" Url="html/47fd737d-a403-89cc-2508-0221ca1e5bf2.htm" />
-    <HelpKINode Title="properties" Url="html/1db1ecb1-a758-52f5-3316-040497a5373b.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RouteTestBase.HttpConfiguration property" Url="html/c7ac0012-db33-b2f5-a8ab-49470ae88f50.htm" />
-  <HelpKINode Title="RouteTestBase.Routes property" Url="html/0683458b-ca4f-d7a7-5c19-3cec5d39bb40.htm" />
-  <HelpKINode Title="RouteTestBase.RouteTestBase constructor" Url="html/438ba543-b52b-5760-285d-515263f29811.htm" />
-  <HelpKINode Title="RouteTestBase.TestHttpRoute(Of T, U) method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
-  <HelpKINode Title="RouteTestBase.TestHttpRoute&lt;T, U&gt; method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
-  <HelpKINode Title="RouteTestBase.TestRouteFromRouteData method" Url="html/c66633aa-27db-62f1-3f20-f467b09bcedd.htm" />
-  <HelpKINode Title="RouteTestBase.TestRouteFromUrl method" Url="html/bf02a811-6926-47b1-9433-0419e937d9db.htm" />
   <HelpKINode Title="RouteTester class" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
   <HelpKINode Title="RouteTester class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
   <HelpKINode Title="RouteTester class">
@@ -299,10 +305,12 @@
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing namespace" Url="html/62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions class" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.HttpRouteTestBase class" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.MvcRouteTestBase class" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.ReflectionHelper class" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.ReflectionHelper class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTestBase class" Url="html/b7f84eec-3539-ffc5-5155-eb4448f1ba70.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTestBase class" Url="html/e900c736-7e50-1345-19e0-92a565e82f0b.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTester class" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTester class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
   <HelpKINode Title="SignIn method" Url="html/096ad4d2-5686-af06-aca4-7904229d2f7d.htm" />
@@ -310,10 +318,10 @@
   <HelpKINode Title="SignOut method" Url="html/44783d55-0ee4-1773-414c-5903e2c8e609.htm" />
   <HelpKINode Title="SignOut method" Url="html/86563f90-2518-bcc7-cead-ccdc060248cc.htm" />
   <HelpKINode Title="Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
-  <HelpKINode Title="TestHttpRoute(Of T, U) method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
-  <HelpKINode Title="TestHttpRoute&lt;T, U&gt; method" Url="html/0104c45c-fb68-8362-6fe0-fa9eb5f50500.htm" />
-  <HelpKINode Title="TestRouteFromRouteData method" Url="html/c66633aa-27db-62f1-3f20-f467b09bcedd.htm" />
-  <HelpKINode Title="TestRouteFromUrl method" Url="html/bf02a811-6926-47b1-9433-0419e937d9db.htm" />
+  <HelpKINode Title="TestHttpRoute(Of T, U) method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
+  <HelpKINode Title="TestHttpRoute&lt;T, U&gt; method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
+  <HelpKINode Title="TestRouteFromRouteData method" Url="html/098dbf92-9d62-5d27-c279-9cf5e6a0693e.htm" />
+  <HelpKINode Title="TestRouteFromUrl method" Url="html/2eac67d9-5363-7152-796d-5c5328c16841.htm" />
   <HelpKINode Title="WebApiModelBinderProvider class" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
   <HelpKINode Title="WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
   <HelpKINode Title="WebApiModelBinderProvider class">

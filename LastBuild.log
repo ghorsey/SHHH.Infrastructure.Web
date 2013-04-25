@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/15/2013 9:33:36 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj" started="4/25/2013 2:53:30 AM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -16,10 +16,10 @@ Source: E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastruc
     Found project &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.dll&#39;
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\BuildHelp\SHHH.Infrastructure.Web.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\BuildHelp\SHHH.Infrastructure.Web.Bootstrap.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\BuildHelp\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\BuildHelp\SHHH.Infrastructure.Web.Testing.dll&#39;
 
 References to include (excluding framework assemblies):
     Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
@@ -37,18 +37,18 @@ References to include (excluding framework assemblies):
     System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
 
 Copying XML comments files
-    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\Release\SHHH.Infrastructure.Web.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.xml
-    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\Release\SHHH.Infrastructure.Web.Bootstrap.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.xml
-    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\Release\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml
-    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\Release\SHHH.Infrastructure.Web.Testing.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Testing.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infractructure.Web\bin\BuildHelp\SHHH.Infrastructure.Web.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap\bin\BuildHelp\SHHH.Infrastructure.Web.Bootstrap.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\bin\BuildHelp\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.xml
+    E:\Users\Geoff\Projects\SHHH.Infrastructure.Web\code\src\SHHH.Infrastructure.Web.Testing\bin\BuildHelp\SHHH.Infrastructure.Web.Testing.xml -&gt; E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\SHHH.Infrastructure.Web.Testing.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -56,22 +56,22 @@ Generating reflection information...
   MRefBuilder (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 4 assemblies for reflection and 14 dependency assemblies.
-  Info: Wrote information on 8 namespaces, 17 types, and 55 members
+  Info: Wrote information on 8 namespaces, 18 types, and 54 members
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:01.0461
+    Last step completed in 00:00:01.0851
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.1330
+    Last step completed in 00:00:00.1380
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -83,12 +83,12 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:00.7260
+    Last step completed in 00:00:00.7220
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -286,16 +286,16 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; E:\Users\G
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:00.1520
+    Last step completed in 00:00:00.1660
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -304,17 +304,17 @@ Generating intermediate table of contents file...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2200
+    Last step completed in 00:00:00.2210
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\sandcastle.config
-    Last step completed in 00:00:00.2050
+    Last step completed in 00:00:00.0930
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -332,7 +332,11 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Javascript(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
-  Warn: ShowMissingComponent: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.JavascriptSwitch(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.JavascriptSwitch(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.JavascriptSwitch(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.JavascriptSwitch(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.JavascriptSwitch(System.Web.Mvc.HtmlHelper,System.String,System.String)] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Html.HtmlHelperExtensions.Json(System.Web.Mvc.HtmlHelper,System.Object,System.Action{{Newtonsoft.Json.JsonSerializerSettings}})] Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
@@ -421,20 +425,15 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions.SetFakeRequest(System.Web.Http.ApiController,System.Net.Http.HttpMethod,System.Uri,System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.ApiController&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.#ctor(System.Func{{System.Tuple{{System.Web.Routing.RouteCollection,System.Web.Http.HttpConfiguration}}}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:SHHH.Infrastructure.Web.Testing.RouteTestBase.HttpConfiguration] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
-  Warn: ShowMissingComponent: [M:SHHH.Infrastructure.Web.Testing.RouteTestBase.TestRouteFromUrl(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.#ctor(System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.#ctor(System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.#ctor(System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.#ctor(System.Func{{System.Web.Http.HttpConfiguration}})] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.HttpRouteTestBase.TestHttpRoute``2(System.Net.Http.HttpMethod,System.String,System.Type,System.Linq.Expressions.Expression{{System.Func{{``0,``1}}}})] Unknown reference link target &#39;T:System.Net.Http.HttpMethod&#39;.
+  Warn: ShowMissingComponent: [M:SHHH.Infrastructure.Web.Testing.MvcRouteTestBase.TestRouteFromUrl(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
@@ -444,7 +443,7 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Web.Http.HttpConfiguration&#39;.
   Warn: ResolveReferenceLinksComponent2: [M:SHHH.Infrastructure.Web.Testing.RouteTester.#ctor(System.Web.Http.HttpConfiguration,System.Net.Http.HttpRequestMessage)] Unknown reference link target &#39;T:System.Net.Http.HttpRequestMessage&#39;.
   Info: Processed 125 topics
-    Last step completed in 00:00:34.2020
+    Last step completed in 00:00:48.3538
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -466,7 +465,7 @@ Processed 125 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\WebKI.xml
 Saving website table of contents to E:\Users\Geoff\Projects\_docs\SHHH.Infrastructure.Web\Working\WebTOC.xml
-    Last step completed in 00:00:00.6790
+    Last step completed in 00:00:00.6880
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -475,7 +474,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.3140
+    Last step completed in 00:00:00.3050
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -483,15 +482,15 @@ Copying website files to output folder...
 Copied 100 files
 Copied 200 files
 Copied 221 files for the website content
-    Last step completed in 00:00:00.1890
+    Last step completed in 00:00:00.1770
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1030
+    Last step completed in 00:00:00.0820
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/15/2013 09:34 AM.  Total time: 00:00:38.1372
+Build completed successfully at 04/25/2013 02:54 AM.  Total time: 00:00:52.2370
 
 </buildStep>
 </shfbBuild>
