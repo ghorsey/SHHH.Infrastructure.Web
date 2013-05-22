@@ -1,4 +1,4 @@
-﻿// <copyright file="RouteTestBase.cs" company="SHHH Innovations LLC">
+﻿// <copyright file="HttpRouteTestBase.cs" company="SHHH Innovations LLC">
 // Copyright SHHH Innovations LLC
 // </copyright>
 
@@ -20,7 +20,7 @@ namespace SHHH.Infrastructure.Web.Testing
     public abstract class HttpRouteTestBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="MvcRouteTestBase" /> class.
+        /// Initializes a new instance of the <see cref="HttpRouteTestBase" /> class.
         /// </summary>
         /// <param name="f">The function.</param>
         /// <exception cref="System.ArgumentNullException">Function to return routes and HTTP configuration cannot be null!</exception>
@@ -37,7 +37,7 @@ namespace SHHH.Infrastructure.Web.Testing
         }
 
         /// <summary>
-        /// Gets the HTTP configuration.
+        /// Gets or sets the HTTP configuration.
         /// </summary>
         /// <value>
         /// The HTTP configuration.

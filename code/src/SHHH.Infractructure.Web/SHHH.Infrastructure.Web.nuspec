@@ -11,7 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Added HTML helper to switch between SRC location depending on if the debugger is attached
+      * Modified the JavaScript and Stylesheet HTMLHelper extension methods to include the version of the calling web application as ?v={MVC Version}
+      * Added an optional argument to the JavaScript and Stylesheet HTMLHelper extension methods to disable the new version query string parameter
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>

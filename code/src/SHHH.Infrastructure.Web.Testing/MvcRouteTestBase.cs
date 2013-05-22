@@ -1,4 +1,4 @@
-﻿// <copyright file="RouteTestBase.cs" company="SHHH Innovations LLC">
+﻿// <copyright file="MvcRouteTestBase.cs" company="SHHH Innovations LLC">
 // Copyright SHHH Innovations LLC
 // </copyright>
 
@@ -32,7 +32,7 @@ namespace SHHH.Infrastructure.Web.Testing
         }
 
         /// <summary>
-        /// Gets the routes.
+        /// Gets or sets the routes.
         /// </summary>
         /// <value>
         /// The routes.

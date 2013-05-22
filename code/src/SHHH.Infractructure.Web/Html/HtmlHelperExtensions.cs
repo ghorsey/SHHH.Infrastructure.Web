@@ -24,6 +24,7 @@ namespace SHHH.Infrastructure.Web.Html
         /// <param name="href">The href to the css or less file, minus the extension (.css).</param>
         /// <param name="suffix">The suffix append to the CSS URL before the .css extension.</param>
         /// <param name="extension">The extension.</param>
+        /// <param name="includeVersion">if set to <c>true</c> the version of the calling assembly is included as a query string parameter.</param>
         /// <returns>
         /// Returns a link tag with the HREF set to <c>{filename}.css</c> when the debugger is attached; otherwise <c>{filename}{suffix}.css</c>
         /// </returns>
@@ -31,10 +32,10 @@ namespace SHHH.Infrastructure.Web.Html
         /// Call to <c>@Html.Stylesheet(Url.Content("~/Content/Styles/site"), "-min")</c>
         /// Will result in the following HTML <c>&lt;link type="text/css" rel="stylesheet" href="/Content/Styles/site-min.css"/&gt;</c>
         /// when the debugger is not attached.  Otherwise, if the debugger is attached, it will result in the following HTML:
-        /// <c>&lt;link type="text/css" rel="stylesheet" href="/Content/Styles/site.css"/&gt;</c>
+        ///   <c>&lt;link type="text/css" rel="stylesheet" href="/Content/Styles/site.css"/&gt;</c>
         /// </example>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        public static HtmlString Stylesheet(this HtmlHelper helper, string href, string suffix = ".min", string extension = ".css")
+        public static HtmlString Stylesheet(this HtmlHelper helper, string href, string suffix = ".min", string extension = ".css", bool includeVersion = true)
         {
             if (href.ToUpperInvariant().EndsWith(".CSS"))
             {
@@ -56,7 +57,7 @@ namespace SHHH.Infrastructure.Web.Html
             }
 
             var builder = new TagBuilder("link");
-            
+
             builder.MergeAttribute("type", "text/css");
             builder.MergeAttribute("rel", rel);
 
@@ -67,6 +68,11 @@ namespace SHHH.Infrastructure.Web.Html
             else
             {
                 href = string.Concat(href, suffix, extension);
+            }
+
+            if (includeVersion == true)
+            {
+                href = AppendVersion(href);
             }
 
             builder.MergeAttribute("href", href);
@@ -80,7 +86,10 @@ namespace SHHH.Infrastructure.Web.Html
         /// <param name="helper">The helper.</param>
         /// <param name="src">The SRC.</param>
         /// <param name="suffix">The suffix.</param>
-        /// <returns>Returns a script tag with the SRC set to <c>{filename}.js</c> when the debugger is attached; otherwise <c>{filename}{suffix}.js</c></returns>
+        /// <param name="includeVersion">if set to <c>true</c> the version of the calling assembly is included as a query string parameter.</param>
+        /// <returns>
+        /// Returns a script tag with the SRC set to <c>{filename}.js</c> when the debugger is attached; otherwise <c>{filename}{suffix}.js</c>
+        /// </returns>
         /// <example>
         /// Call to <c>@Html.Javascript(Url.Content("~/Content/scripts/awesome"), "-min")</c>
         /// Will result in the following HTML <c>&lt;script src="/Content/scripts/awesome-min.js"&gt;&lt;/script&gt;</c>
@@ -88,7 +97,7 @@ namespace SHHH.Infrastructure.Web.Html
         ///   <c>&lt;script src="/Content/Styles/awesome.js"&gt;&lt;/script&gt;</c>
         /// </example>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        public static HtmlString Javascript(this HtmlHelper helper, string src, string suffix = ".min")
+        public static HtmlString Javascript(this HtmlHelper helper, string src, string suffix = ".min", bool includeVersion = true)
         {
             if (src.ToUpperInvariant().EndsWith(".JS"))
             {
@@ -98,7 +107,7 @@ namespace SHHH.Infrastructure.Web.Html
             var debuggingSrc = string.Concat(src, ".js");
             var releaseSrc = string.Concat(src, suffix, ".js");
 
-            return JavascriptSwitch(helper, debuggingSrc, releaseSrc);
+            return JavascriptSwitch(helper, debuggingSrc, releaseSrc, includeVersion);
         }
 
         /// <summary>
@@ -107,13 +116,21 @@ namespace SHHH.Infrastructure.Web.Html
         /// <param name="helper">The helper.</param>
         /// <param name="debugingSrc">The SRC to use when the debugger is attached.</param>
         /// <param name="releaseSrc">The SRC to use when the debugger is not attached.</param>
-        /// <returns>An HTML script tag</returns>
+        /// <param name="includeVersion">if set to <c>true</c> the version of the calling assembly is included as a query string parameter.</param>
+        /// <returns>
+        /// An HTML script tag
+        /// </returns>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        public static HtmlString JavascriptSwitch(this HtmlHelper helper, string debugingSrc, string releaseSrc)
+        public static HtmlString JavascriptSwitch(this HtmlHelper helper, string debugingSrc, string releaseSrc, bool includeVersion = true)
         {
             var builder = new TagBuilder("script");
 
             var src = Debugger.IsAttached ? debugingSrc : releaseSrc;
+
+            if (includeVersion)
+            {
+                src = AppendVersion(src);
+            }
 
             builder.MergeAttribute("src", src);
 
@@ -140,6 +157,25 @@ namespace SHHH.Infrastructure.Web.Html
             }
 
             return new HtmlString(JsonConvert.SerializeObject(value));
+        }
+
+        /// <summary>
+        /// Appends the version.
+        /// </summary>
+        /// <param name="uri">The URI.</param>
+        /// <returns>The URI with the version of the calling assembly appended</returns>
+        private static string AppendVersion(string uri)
+        {
+            var type = HttpContext.Current.ApplicationInstance.GetType();
+
+            while (type.BaseType != null && type.Namespace == "ASP")
+            {
+                type = type.BaseType;
+            }
+
+            var version = type.Assembly.GetName().Version.ToString();
+
+            return string.Concat(uri, "?v=", version);
         }
     }
 }

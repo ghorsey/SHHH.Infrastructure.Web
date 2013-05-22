@@ -60,6 +60,7 @@ namespace SHHH.Infrastructure.Web.Testing
                 var msgFormat = "Could not generate the route data for the request: {0}.  Common pitfalls: a typo in Controller or Action name in the route definition, or incorrectly using Http verbs from System.Web.Mvc instead of System.Web.Http.";
                 throw new InvalidOperationException(string.Format(msgFormat, this.request.ToString()));
             }
+
             this.request.Properties[HttpPropertyKeys.HttpRouteDataKey] = this.routeData;
             this.controllerSelector = new DefaultHttpControllerSelector(this.config);
             this.controllerContext = new HttpControllerContext(this.config, this.routeData, this.request);
