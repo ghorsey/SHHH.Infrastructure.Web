@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
-
   <HelpKINode Title="AuthenticationType property" Url="html/9cfb9059-c2d1-a1c2-27f4-9c9292b22197.htm" />
-  <HelpKINode Title="BasicFormsAuthentication class" Url="html/28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm" />
-  <HelpKINode Title="BasicFormsAuthentication class" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
   <HelpKINode Title="BasicFormsAuthentication class">
+    <HelpKINode Title="BasicFormsAuthentication Class" Url="html/28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm" />
+    <HelpKINode Title="BasicFormsAuthentication Members" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
     <HelpKINode Title="about BasicFormsAuthentication class" Url="html/28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm" />
     <HelpKINode Title="all members" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
     <HelpKINode Title="constructor" Url="html/b99e7d36-addb-7fb0-552d-eaa55f605c02.htm" />
@@ -16,9 +15,9 @@
   <HelpKINode Title="BasicFormsAuthentication.LoginUrl property" Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
   <HelpKINode Title="BasicFormsAuthentication.SignIn method" Url="html/096ad4d2-5686-af06-aca4-7904229d2f7d.htm" />
   <HelpKINode Title="BasicFormsAuthentication.SignOut method" Url="html/44783d55-0ee4-1773-414c-5903e2c8e609.htm" />
-  <HelpKINode Title="BasicRoleProvider(Of T) class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
-  <HelpKINode Title="BasicRoleProvider(Of T) class" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
   <HelpKINode Title="BasicRoleProvider(Of T) class">
+    <HelpKINode Title="BasicRoleProvider(T) Class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
+    <HelpKINode Title="BasicRoleProvider(T) Members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
     <HelpKINode Title="about BasicRoleProvider(Of T) class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
     <HelpKINode Title="all members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
     <HelpKINode Title="constructor" Url="html/83161039-9264-52d7-62a7-7065509c3f6c.htm" />
@@ -26,9 +25,9 @@
   </HelpKINode>
   <HelpKINode Title="BasicRoleProvider(Of T).BasicRoleProvider constructor" Url="html/83161039-9264-52d7-62a7-7065509c3f6c.htm" />
   <HelpKINode Title="BasicRoleProvider(Of T).IsInRole method" Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
-  <HelpKINode Title="BasicRoleProvider&lt;T&gt; class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
-  <HelpKINode Title="BasicRoleProvider&lt;T&gt; class" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
   <HelpKINode Title="BasicRoleProvider&lt;T&gt; class">
+    <HelpKINode Title="BasicRoleProvider(T) Class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
+    <HelpKINode Title="BasicRoleProvider(T) Members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
     <HelpKINode Title="about BasicRoleProvider&lt;T&gt; class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
     <HelpKINode Title="all members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
     <HelpKINode Title="constructor" Url="html/83161039-9264-52d7-62a7-7065509c3f6c.htm" />
@@ -37,9 +36,9 @@
   <HelpKINode Title="BasicRoleProvider&lt;T&gt;.BasicRoleProvider constructor" Url="html/83161039-9264-52d7-62a7-7065509c3f6c.htm" />
   <HelpKINode Title="BasicRoleProvider&lt;T&gt;.IsInRole method" Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
   <HelpKINode Title="Binders property" Url="html/a73ee574-de37-59fa-19ed-73b951c5f4c7.htm" />
-  <HelpKINode Title="Bootstrapper class" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
-  <HelpKINode Title="Bootstrapper class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
   <HelpKINode Title="Bootstrapper class">
+    <HelpKINode Title="Bootstrapper Class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
+    <HelpKINode Title="Bootstrapper Members" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
     <HelpKINode Title="about Bootstrapper class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
     <HelpKINode Title="all members" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
     <HelpKINode Title="constructor" Url="html/bb6511ff-1cc6-0fae-27b4-f2b13927ef07.htm" />
@@ -50,9 +49,9 @@
   <HelpKINode Title="Bootstrapper.DependencyInjectionAdapter property" Url="html/9744e3b7-6726-dfb3-73a1-e6efcd4f5786.htm" />
   <HelpKINode Title="Bootstrapper.GetBootstrapTasksFrom method" Url="html/1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm" />
   <HelpKINode Title="Bootstrapper.Run method" Url="html/568ca9cb-b77b-2977-b2be-b729a3c06204.htm" />
-  <HelpKINode Title="CustomIdentity(Of T) class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
-  <HelpKINode Title="CustomIdentity(Of T) class" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
   <HelpKINode Title="CustomIdentity(Of T) class">
+    <HelpKINode Title="CustomIdentity(T) Class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
+    <HelpKINode Title="CustomIdentity(T) Members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
     <HelpKINode Title="about CustomIdentity(Of T) class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
     <HelpKINode Title="all members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
     <HelpKINode Title="constructor" Url="html/0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm" />
@@ -64,9 +63,9 @@
   <HelpKINode Title="CustomIdentity(Of T).IsAuthenticated property" Url="html/a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm" />
   <HelpKINode Title="CustomIdentity(Of T).Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
   <HelpKINode Title="CustomIdentity(Of T).Reference property" Url="html/ace9add3-8fa2-f202-16e6-a77c1decc599.htm" />
-  <HelpKINode Title="CustomIdentity&lt;T&gt; class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
-  <HelpKINode Title="CustomIdentity&lt;T&gt; class" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
   <HelpKINode Title="CustomIdentity&lt;T&gt; class">
+    <HelpKINode Title="CustomIdentity(T) Class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
+    <HelpKINode Title="CustomIdentity(T) Members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
     <HelpKINode Title="about CustomIdentity&lt;T&gt; class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
     <HelpKINode Title="all members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
     <HelpKINode Title="constructor" Url="html/0d5deab8-6650-adb7-08a2-1bb7f155e02c.htm" />
@@ -78,9 +77,9 @@
   <HelpKINode Title="CustomIdentity&lt;T&gt;.IsAuthenticated property" Url="html/a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm" />
   <HelpKINode Title="CustomIdentity&lt;T&gt;.Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
   <HelpKINode Title="CustomIdentity&lt;T&gt;.Reference property" Url="html/ace9add3-8fa2-f202-16e6-a77c1decc599.htm" />
-  <HelpKINode Title="CustomPrincipal(Of T) class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
-  <HelpKINode Title="CustomPrincipal(Of T) class" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
   <HelpKINode Title="CustomPrincipal(Of T) class">
+    <HelpKINode Title="CustomPrincipal(T) Class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
+    <HelpKINode Title="CustomPrincipal(T) Members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
     <HelpKINode Title="about CustomPrincipal(Of T) class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
     <HelpKINode Title="all members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
     <HelpKINode Title="constructor" Url="html/1a697faa-3f69-734d-b9e9-a88f8728ae11.htm" />
@@ -91,9 +90,9 @@
   <HelpKINode Title="CustomPrincipal(Of T).Identity property" Url="html/2ed88937-f6a6-6b82-0b91-bdf2a426f8f0.htm" />
   <HelpKINode Title="CustomPrincipal(Of T).IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
   <HelpKINode Title="CustomPrincipal(Of T).RoleProvider property" Url="html/4b4b0e74-d186-b813-7bf6-27e54f235904.htm" />
-  <HelpKINode Title="CustomPrincipal&lt;T&gt; class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
-  <HelpKINode Title="CustomPrincipal&lt;T&gt; class" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
   <HelpKINode Title="CustomPrincipal&lt;T&gt; class">
+    <HelpKINode Title="CustomPrincipal(T) Class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
+    <HelpKINode Title="CustomPrincipal(T) Members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
     <HelpKINode Title="about CustomPrincipal&lt;T&gt; class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
     <HelpKINode Title="all members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
     <HelpKINode Title="constructor" Url="html/1a697faa-3f69-734d-b9e9-a88f8728ae11.htm" />
@@ -105,9 +104,9 @@
   <HelpKINode Title="CustomPrincipal&lt;T&gt;.IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
   <HelpKINode Title="CustomPrincipal&lt;T&gt;.RoleProvider property" Url="html/4b4b0e74-d186-b813-7bf6-27e54f235904.htm" />
   <HelpKINode Title="DependencyInjectionAdapter property" Url="html/9744e3b7-6726-dfb3-73a1-e6efcd4f5786.htm" />
-  <HelpKINode Title="DependencyResolverAdapter class" Url="html/0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm" />
-  <HelpKINode Title="DependencyResolverAdapter class" Url="html/ee718a34-164e-b097-a135-234e0b6574b8.htm" />
   <HelpKINode Title="DependencyResolverAdapter class">
+    <HelpKINode Title="DependencyResolverAdapter Class" Url="html/ee718a34-164e-b097-a135-234e0b6574b8.htm" />
+    <HelpKINode Title="DependencyResolverAdapter Members" Url="html/0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm" />
     <HelpKINode Title="about DependencyResolverAdapter class" Url="html/ee718a34-164e-b097-a135-234e0b6574b8.htm" />
     <HelpKINode Title="all members" Url="html/0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm" />
     <HelpKINode Title="constructor" Url="html/1658645c-72ef-9026-29ea-03181516d0c7.htm" />
@@ -118,45 +117,55 @@
   <HelpKINode Title="DependencyResolverAdapter.Get&lt;T&gt; method" Url="html/cbb34196-5f20-af1c-d1cc-4969382c5389.htm" />
   <HelpKINode Title="DependencyResolverAdapter.GetAll(Of T) method" Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
   <HelpKINode Title="DependencyResolverAdapter.GetAll&lt;T&gt; method" Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
-  <HelpKINode Title="FakeRequestMessageExtensions class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
-  <HelpKINode Title="FakeRequestMessageExtensions class" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
   <HelpKINode Title="FakeRequestMessageExtensions class">
+    <HelpKINode Title="FakeRequestMessageExtensions Class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
+    <HelpKINode Title="FakeRequestMessageExtensions Members" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
     <HelpKINode Title="about FakeRequestMessageExtensions class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
     <HelpKINode Title="all members" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
     <HelpKINode Title="methods" Url="html/a3176d19-e9c4-83c8-c1b3-e7c947b18074.htm" />
   </HelpKINode>
   <HelpKINode Title="FakeRequestMessageExtensions.SetFakeRequest method" Url="html/e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm" />
-  <HelpKINode Title="Get(Of T) method" Url="html/06ed42e0-4ce6-3e13-b089-a712032a82b9.htm" />
-  <HelpKINode Title="Get(Of T) method" Url="html/cbb34196-5f20-af1c-d1cc-4969382c5389.htm" />
-  <HelpKINode Title="Get&lt;T&gt; method" Url="html/06ed42e0-4ce6-3e13-b089-a712032a82b9.htm" />
-  <HelpKINode Title="Get&lt;T&gt; method" Url="html/cbb34196-5f20-af1c-d1cc-4969382c5389.htm" />
+  <HelpKINode Title="Get(Of T) method">
+    <HelpKINode Title="DependencyResolverAdapter.Get(T) Method " Url="html/cbb34196-5f20-af1c-d1cc-4969382c5389.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter.Get(T) Method " Url="html/06ed42e0-4ce6-3e13-b089-a712032a82b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Get&lt;T&gt; method">
+    <HelpKINode Title="DependencyResolverAdapter.Get(T) Method " Url="html/cbb34196-5f20-af1c-d1cc-4969382c5389.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter.Get(T) Method " Url="html/06ed42e0-4ce6-3e13-b089-a712032a82b9.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetActionName method" Url="html/4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm" />
-  <HelpKINode Title="GetAll(Of T) method" Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
-  <HelpKINode Title="GetAll(Of T) method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
-  <HelpKINode Title="GetAll&lt;T&gt; method" Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
-  <HelpKINode Title="GetAll&lt;T&gt; method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
+  <HelpKINode Title="GetAll(Of T) method">
+    <HelpKINode Title="DependencyResolverAdapter.GetAll(T) Method " Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter.GetAll(T) Method " Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAll&lt;T&gt; method">
+    <HelpKINode Title="DependencyResolverAdapter.GetAll(T) Method " Url="html/15edcce0-1e3d-c31a-021f-4b36c4838a4b.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter.GetAll(T) Method " Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetBinder method" Url="html/1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm" />
   <HelpKINode Title="GetBootstrapTasksFrom method" Url="html/1e4eb875-dc9d-bb52-85b1-e7c0c062e350.htm" />
   <HelpKINode Title="GetControllerType method" Url="html/59ef8878-4a82-2d8a-c979-b829ad2a31c2.htm" />
   <HelpKINode Title="GetDocumentation method" Url="html/50b6f9b7-d76e-f9fc-a284-c360c3817cc7.htm" />
   <HelpKINode Title="GetMethodName(Of T, U) method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="GetMethodName&lt;T, U&gt; method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
-  <HelpKINode Title="GetRedirectUrl method" Url="html/63729680-7b0b-c46d-0ce0-76689366c9f5.htm" />
-  <HelpKINode Title="GetRedirectUrl method" Url="html/cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm" />
-  <HelpKINode Title="HtmlHelperExtensions class" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
-  <HelpKINode Title="HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+  <HelpKINode Title="GetRedirectUrl method">
+    <HelpKINode Title="BasicFormsAuthentication.GetRedirectUrl Method " Url="html/63729680-7b0b-c46d-0ce0-76689366c9f5.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter.GetRedirectUrl Method " Url="html/cbdececd-2a9f-811b-9fcc-31f0f74b1912.htm" />
+  </HelpKINode>
   <HelpKINode Title="HtmlHelperExtensions class">
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
     <HelpKINode Title="about HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
     <HelpKINode Title="all members" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
     <HelpKINode Title="methods" Url="html/4610bc93-e5da-a422-916d-e0fa2429a44a.htm" />
   </HelpKINode>
-  <HelpKINode Title="HtmlHelperExtensions.Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.JavascriptSwitch method" Url="html/46098b08-a98e-4914-c522-d40e94e9436c.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.Javascript method" Url="html/ada38a7d-c584-84ea-7bef-0974bcc1b630.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.JavascriptSwitch method" Url="html/130506f8-c10b-2176-9ccb-494a5caed868.htm" />
   <HelpKINode Title="HtmlHelperExtensions.Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
-  <HelpKINode Title="HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
-  <HelpKINode Title="HttpRouteTestBase class" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.Stylesheet method" Url="html/74ff22cc-87c5-2d7a-6149-9279c1bf626f.htm" />
   <HelpKINode Title="HttpRouteTestBase class">
+    <HelpKINode Title="HttpRouteTestBase Class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
+    <HelpKINode Title="HttpRouteTestBase Members" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
     <HelpKINode Title="about HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
     <HelpKINode Title="all members" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
     <HelpKINode Title="constructor" Url="html/49e84b62-0cf0-d1bf-b72d-1ae43ac94024.htm" />
@@ -165,18 +174,18 @@
   <HelpKINode Title="HttpRouteTestBase.HttpRouteTestBase constructor" Url="html/49e84b62-0cf0-d1bf-b72d-1ae43ac94024.htm" />
   <HelpKINode Title="HttpRouteTestBase.TestHttpRoute(Of T, U) method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
   <HelpKINode Title="HttpRouteTestBase.TestHttpRoute&lt;T, U&gt; method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
-  <HelpKINode Title="IBootstrapTask interface" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
-  <HelpKINode Title="IBootstrapTask interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
   <HelpKINode Title="IBootstrapTask interface">
+    <HelpKINode Title="IBootstrapTask Interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
+    <HelpKINode Title="IBootstrapTask Members" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
     <HelpKINode Title="about IBootstrapTask interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
     <HelpKINode Title="all members" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
     <HelpKINode Title="methods" Url="html/96de85e4-77ce-c81f-98cb-2571f55ecfb2.htm" />
   </HelpKINode>
   <HelpKINode Title="IBootstrapTask.Run method" Url="html/c14e5f9f-7fb3-18a0-9ea2-a8f331e7b375.htm" />
   <HelpKINode Title="Identity property" Url="html/2ed88937-f6a6-6b82-0b91-bdf2a426f8f0.htm" />
-  <HelpKINode Title="IDependencyInjectionAdapter interface" Url="html/9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm" />
-  <HelpKINode Title="IDependencyInjectionAdapter interface" Url="html/c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm" />
   <HelpKINode Title="IDependencyInjectionAdapter interface">
+    <HelpKINode Title="IDependencyInjectionAdapter Interface" Url="html/9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter Members" Url="html/c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm" />
     <HelpKINode Title="about IDependencyInjectionAdapter interface" Url="html/9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm" />
     <HelpKINode Title="all members" Url="html/c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm" />
     <HelpKINode Title="methods" Url="html/37ae0212-bdfc-aadb-ed47-2a16ae0df8fe.htm" />
@@ -185,9 +194,9 @@
   <HelpKINode Title="IDependencyInjectionAdapter.Get&lt;T&gt; method" Url="html/06ed42e0-4ce6-3e13-b089-a712032a82b9.htm" />
   <HelpKINode Title="IDependencyInjectionAdapter.GetAll(Of T) method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
   <HelpKINode Title="IDependencyInjectionAdapter.GetAll&lt;T&gt; method" Url="html/48082710-fa7b-fcd2-4b52-da6deb2b4bc7.htm" />
-  <HelpKINode Title="IFormsAuthenticationAdapter interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
-  <HelpKINode Title="IFormsAuthenticationAdapter interface" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
   <HelpKINode Title="IFormsAuthenticationAdapter interface">
+    <HelpKINode Title="IFormsAuthenticationAdapter Interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter Members" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
     <HelpKINode Title="about IFormsAuthenticationAdapter interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
     <HelpKINode Title="all members" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
     <HelpKINode Title="methods" Url="html/af7dda35-5357-d117-dbc0-90e7b70c8e02.htm" />
@@ -197,34 +206,38 @@
   <HelpKINode Title="IFormsAuthenticationAdapter.LoginUrl property" Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
   <HelpKINode Title="IFormsAuthenticationAdapter.SignIn method" Url="html/9b03c720-135a-1b5e-e842-a5d7a9695798.htm" />
   <HelpKINode Title="IFormsAuthenticationAdapter.SignOut method" Url="html/86563f90-2518-bcc7-cead-ccdc060248cc.htm" />
-  <HelpKINode Title="IRoleProvider(Of T) interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
-  <HelpKINode Title="IRoleProvider(Of T) interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
   <HelpKINode Title="IRoleProvider(Of T) interface">
+    <HelpKINode Title="IRoleProvider(T) Interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
+    <HelpKINode Title="IRoleProvider(T) Members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
     <HelpKINode Title="about IRoleProvider(Of T) interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
     <HelpKINode Title="all members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
     <HelpKINode Title="methods" Url="html/abe51118-43d8-518c-7593-13c2c6c35e46.htm" />
   </HelpKINode>
   <HelpKINode Title="IRoleProvider(Of T).IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
-  <HelpKINode Title="IRoleProvider&lt;T&gt; interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
-  <HelpKINode Title="IRoleProvider&lt;T&gt; interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
   <HelpKINode Title="IRoleProvider&lt;T&gt; interface">
+    <HelpKINode Title="IRoleProvider(T) Interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
+    <HelpKINode Title="IRoleProvider(T) Members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
     <HelpKINode Title="about IRoleProvider&lt;T&gt; interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
     <HelpKINode Title="all members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
     <HelpKINode Title="methods" Url="html/abe51118-43d8-518c-7593-13c2c6c35e46.htm" />
   </HelpKINode>
   <HelpKINode Title="IRoleProvider&lt;T&gt;.IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
   <HelpKINode Title="IsAuthenticated property" Url="html/a89aa90b-ecaa-c36f-7a9a-79c68bb9e523.htm" />
-  <HelpKINode Title="IsInRole method" Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
-  <HelpKINode Title="IsInRole method" Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
-  <HelpKINode Title="IsInRole method" Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
-  <HelpKINode Title="Javascript method" Url="html/fb89d69a-5f52-5c61-c0c4-8d03085218c0.htm" />
-  <HelpKINode Title="JavascriptSwitch method" Url="html/46098b08-a98e-4914-c522-d40e94e9436c.htm" />
+  <HelpKINode Title="IsInRole method">
+    <HelpKINode Title="BasicRoleProvider(T).IsInRole Method " Url="html/9a4487ee-fb3d-0de0-0b9c-655ef848e332.htm" />
+    <HelpKINode Title="CustomPrincipal(T).IsInRole Method " Url="html/b1f1fa5b-6694-1d99-346c-20fd5048a597.htm" />
+    <HelpKINode Title="IRoleProvider(T).IsInRole Method " Url="html/b730ecd8-46a6-2c56-db68-7e81b39b1593.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Javascript method" Url="html/ada38a7d-c584-84ea-7bef-0974bcc1b630.htm" />
+  <HelpKINode Title="JavascriptSwitch method" Url="html/130506f8-c10b-2176-9ccb-494a5caed868.htm" />
   <HelpKINode Title="Json method" Url="html/086458e0-507d-655a-6a7b-7bd91d46f782.htm" />
-  <HelpKINode Title="LoginUrl property" Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
-  <HelpKINode Title="LoginUrl property" Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
-  <HelpKINode Title="MvcRouteTestBase class" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
-  <HelpKINode Title="MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
+  <HelpKINode Title="LoginUrl property">
+    <HelpKINode Title="BasicFormsAuthentication.LoginUrl Property " Url="html/70a12afc-1bcf-5718-057a-02eb735fed71.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter.LoginUrl Property " Url="html/ee313a68-5462-6d91-56ed-cd6980380b13.htm" />
+  </HelpKINode>
   <HelpKINode Title="MvcRouteTestBase class">
+    <HelpKINode Title="MvcRouteTestBase Class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
+    <HelpKINode Title="MvcRouteTestBase Members" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
     <HelpKINode Title="about MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
     <HelpKINode Title="all members" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
     <HelpKINode Title="constructor" Url="html/2cac38ae-95e9-e7a6-3be7-c22a2fb54003.htm" />
@@ -235,9 +248,9 @@
   <HelpKINode Title="MvcRouteTestBase.TestRouteFromUrl method" Url="html/2eac67d9-5363-7152-796d-5c5328c16841.htm" />
   <HelpKINode Title="Name property" Url="html/7c947b87-7706-fea6-c539-1b7e00008f46.htm" />
   <HelpKINode Title="Reference property" Url="html/ace9add3-8fa2-f202-16e6-a77c1decc599.htm" />
-  <HelpKINode Title="ReflectionHelper class" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
-  <HelpKINode Title="ReflectionHelper class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
   <HelpKINode Title="ReflectionHelper class">
+    <HelpKINode Title="ReflectionHelper Class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
+    <HelpKINode Title="ReflectionHelper Members" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
     <HelpKINode Title="about ReflectionHelper class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
     <HelpKINode Title="all members" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
     <HelpKINode Title="constructor" Url="html/bc157870-9897-14df-0676-efd216b3b75b.htm" />
@@ -247,9 +260,9 @@
   <HelpKINode Title="ReflectionHelper.GetMethodName&lt;T, U&gt; method" Url="html/608640ca-971f-cccf-cfd6-26e3b362ee1a.htm" />
   <HelpKINode Title="ReflectionHelper.ReflectionHelper constructor" Url="html/bc157870-9897-14df-0676-efd216b3b75b.htm" />
   <HelpKINode Title="RoleProvider property" Url="html/4b4b0e74-d186-b813-7bf6-27e54f235904.htm" />
-  <HelpKINode Title="RouteTester class" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
-  <HelpKINode Title="RouteTester class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
   <HelpKINode Title="RouteTester class">
+    <HelpKINode Title="RouteTester Class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
+    <HelpKINode Title="RouteTester Members" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
     <HelpKINode Title="about RouteTester class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
     <HelpKINode Title="all members" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
     <HelpKINode Title="constructor" Url="html/b88cfabd-e789-5f42-9ce6-5f10a4d8f193.htm" />
@@ -258,73 +271,123 @@
   <HelpKINode Title="RouteTester.GetActionName method" Url="html/4b3e4a04-d5fa-3b6a-b0d5-720ee54ae251.htm" />
   <HelpKINode Title="RouteTester.GetControllerType method" Url="html/59ef8878-4a82-2d8a-c979-b829ad2a31c2.htm" />
   <HelpKINode Title="RouteTester.RouteTester constructor" Url="html/b88cfabd-e789-5f42-9ce6-5f10a4d8f193.htm" />
-  <HelpKINode Title="Run method" Url="html/568ca9cb-b77b-2977-b2be-b729a3c06204.htm" />
-  <HelpKINode Title="Run method" Url="html/c14e5f9f-7fb3-18a0-9ea2-a8f331e7b375.htm" />
+  <HelpKINode Title="Run method">
+    <HelpKINode Title="Bootstrapper.Run Method " Url="html/568ca9cb-b77b-2977-b2be-b729a3c06204.htm" />
+    <HelpKINode Title="IBootstrapTask.Run Method " Url="html/c14e5f9f-7fb3-18a0-9ea2-a8f331e7b375.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetFakeRequest method" Url="html/e9ce91da-0040-b2a0-9cfa-e9f1487b121c.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web namespace" Url="html/0a4f51ae-7cda-ad3a-53e0-40e3888bc5e8.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider(Of T) class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider(Of T) class" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider&lt;T&gt; class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider&lt;T&gt; class" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider(Of T) class">
+    <HelpKINode Title="BasicRoleProvider(T) Class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
+    <HelpKINode Title="BasicRoleProvider(T) Members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.BasicRoleProvider&lt;T&gt; class">
+    <HelpKINode Title="BasicRoleProvider(T) Class" Url="html/c7410bff-e005-4b1c-c126-adaadc74b217.htm" />
+    <HelpKINode Title="BasicRoleProvider(T) Members" Url="html/c7b8929d-1b87-cc87-b201-1a53b38b643c.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap namespace" Url="html/5408de19-39d0-3792-d51b-dce5bec31bbb.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.Bootstrapper class" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.Bootstrapper class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.Bootstrapper class">
+    <HelpKINode Title="Bootstrapper Class" Url="html/cc4fe778-bb50-5608-7793-11bb7fc8c763.htm" />
+    <HelpKINode Title="Bootstrapper Members" Url="html/0cef4a77-f8f8-23d0-47d0-3795590cef6f.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver namespace" Url="html/dbe8e64d-28c4-9dc3-f31f-fcef3e04dc9d.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter class" Url="html/0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter class" Url="html/ee718a34-164e-b097-a135-234e0b6574b8.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IBootstrapTask interface" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IBootstrapTask interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IDependencyInjectionAdapter interface" Url="html/9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IDependencyInjectionAdapter interface" Url="html/c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity(Of T) class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity(Of T) class" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity&lt;T&gt; class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity&lt;T&gt; class" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal(Of T) class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal(Of T) class" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal&lt;T&gt; class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal&lt;T&gt; class" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.DependencyResolverAdapter class">
+    <HelpKINode Title="DependencyResolverAdapter Class" Url="html/ee718a34-164e-b097-a135-234e0b6574b8.htm" />
+    <HelpKINode Title="DependencyResolverAdapter Members" Url="html/0c5cfe6b-ded9-a891-5f02-c12e43e02de9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IBootstrapTask interface">
+    <HelpKINode Title="IBootstrapTask Interface" Url="html/d42968e7-ea73-eb40-45b9-78f020b66fec.htm" />
+    <HelpKINode Title="IBootstrapTask Members" Url="html/8d1dd465-cd40-19a6-6374-6890b0104f66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Bootstrap.IDependencyInjectionAdapter interface">
+    <HelpKINode Title="IDependencyInjectionAdapter Interface" Url="html/9d5b1153-e6e3-174b-04f6-12b87cb9935a.htm" />
+    <HelpKINode Title="IDependencyInjectionAdapter Members" Url="html/c1f5c58f-1b5d-53cb-412c-8017f53c7cc3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity(Of T) class">
+    <HelpKINode Title="CustomIdentity(T) Class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
+    <HelpKINode Title="CustomIdentity(T) Members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.CustomIdentity&lt;T&gt; class">
+    <HelpKINode Title="CustomIdentity(T) Class" Url="html/558c060e-f773-5f60-6a64-2ccd6316e6df.htm" />
+    <HelpKINode Title="CustomIdentity(T) Members" Url="html/a3ad7d27-1d3f-9856-1252-36ea41e68473.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal(Of T) class">
+    <HelpKINode Title="CustomPrincipal(T) Class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
+    <HelpKINode Title="CustomPrincipal(T) Members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.CustomPrincipal&lt;T&gt; class">
+    <HelpKINode Title="CustomPrincipal(T) Class" Url="html/446c96e0-ca7e-4cb0-4480-f26a248c6fd3.htm" />
+    <HelpKINode Title="CustomPrincipal(T) Members" Url="html/5b7fe4a3-36d5-9848-901e-b1056089717a.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication namespace" Url="html/96653ae7-5903-0630-a472-60f0338deecd.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.BasicFormsAuthentication class" Url="html/28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.BasicFormsAuthentication class" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.IFormsAuthenticationAdapter interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.IFormsAuthenticationAdapter interface" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.BasicFormsAuthentication class">
+    <HelpKINode Title="BasicFormsAuthentication Class" Url="html/28a7c29d-aeea-4bf3-edf4-45d28b3f1ef4.htm" />
+    <HelpKINode Title="BasicFormsAuthentication Members" Url="html/8690364d-3f0a-85fd-0693-cc3a14b332cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.FormsAuthentication.IFormsAuthenticationAdapter interface">
+    <HelpKINode Title="IFormsAuthenticationAdapter Interface" Url="html/7fc56f20-0840-c2ae-8e02-69f98e5fac71.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter Members" Url="html/ee9e6e02-668a-e010-a6cc-fe57eaadfbda.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.Html namespace" Url="html/c1fba502-fe66-3ccb-08bb-52bb46c53c7d.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Html.HtmlHelperExtensions class">
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/67cb7fac-e808-e34e-fd95-35648f806606.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/0bba10c3-93a9-435a-9837-4e4194a8c4ec.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.Http namespace" Url="html/6afe9288-45f8-0c72-4a52-797ad1f7ee4d.htm" />
   <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation namespace" Url="html/dc2efae2-b26a-85d2-589d-3919abcee719.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider class" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider class" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider&lt;T&gt; interface" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider&lt;T&gt; interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.Documentation.XmlCommentDocumentationProvider class">
+    <HelpKINode Title="XmlCommentDocumentationProvider Class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
+    <HelpKINode Title="XmlCommentDocumentationProvider Members" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Http.WebApiModelBinderProvider class">
+    <HelpKINode Title="WebApiModelBinderProvider Class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
+    <HelpKINode Title="WebApiModelBinderProvider Members" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider(Of T) interface">
+    <HelpKINode Title="IRoleProvider(T) Interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
+    <HelpKINode Title="IRoleProvider(T) Members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.IRoleProvider&lt;T&gt; interface">
+    <HelpKINode Title="IRoleProvider(T) Interface" Url="html/98aefe84-5817-fb17-17f1-6edaf72087fd.htm" />
+    <HelpKINode Title="IRoleProvider(T) Members" Url="html/8ddeb409-5bcc-3169-5693-ab2f465dbf42.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHHH.Infrastructure.Web.Testing namespace" Url="html/62e50256-6fb8-3e8f-bdf1-80d8b7fd44fc.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions class" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.HttpRouteTestBase class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.HttpRouteTestBase class" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.MvcRouteTestBase class" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.MvcRouteTestBase class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.ReflectionHelper class" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.ReflectionHelper class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTester class" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
-  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTester class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
-  <HelpKINode Title="SignIn method" Url="html/096ad4d2-5686-af06-aca4-7904229d2f7d.htm" />
-  <HelpKINode Title="SignIn method" Url="html/9b03c720-135a-1b5e-e842-a5d7a9695798.htm" />
-  <HelpKINode Title="SignOut method" Url="html/44783d55-0ee4-1773-414c-5903e2c8e609.htm" />
-  <HelpKINode Title="SignOut method" Url="html/86563f90-2518-bcc7-cead-ccdc060248cc.htm" />
-  <HelpKINode Title="Stylesheet method" Url="html/c428715d-e7e0-5536-8a0e-c79328ae5223.htm" />
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.FakeRequestMessageExtensions class">
+    <HelpKINode Title="FakeRequestMessageExtensions Class" Url="html/7803da3c-77cc-4532-c20a-1c5a7c7e866d.htm" />
+    <HelpKINode Title="FakeRequestMessageExtensions Members" Url="html/f53ce402-e844-85a3-b92d-161b8c035042.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.HttpRouteTestBase class">
+    <HelpKINode Title="HttpRouteTestBase Class" Url="html/c4795f02-e17a-bd0b-5e50-c217d1b01b7e.htm" />
+    <HelpKINode Title="HttpRouteTestBase Members" Url="html/ea7afce1-9e82-621d-5640-1f3bd2e1d37d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.MvcRouteTestBase class">
+    <HelpKINode Title="MvcRouteTestBase Class" Url="html/2a9db8ab-4c03-c1e2-484e-c41638768e6b.htm" />
+    <HelpKINode Title="MvcRouteTestBase Members" Url="html/107b4e51-a78d-e1ef-711f-613ba629b4ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.ReflectionHelper class">
+    <HelpKINode Title="ReflectionHelper Class" Url="html/deb82548-dab1-b662-1968-d610b86ba866.htm" />
+    <HelpKINode Title="ReflectionHelper Members" Url="html/12161142-8c0a-28e2-dcd8-2b13f7ab45d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SHHH.Infrastructure.Web.Testing.RouteTester class">
+    <HelpKINode Title="RouteTester Class" Url="html/ad24b02d-0f48-cb57-6c41-79cf67d08f40.htm" />
+    <HelpKINode Title="RouteTester Members" Url="html/55171a24-95fe-b7e7-2e96-dc50da6f62ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SignIn method">
+    <HelpKINode Title="BasicFormsAuthentication.SignIn Method " Url="html/096ad4d2-5686-af06-aca4-7904229d2f7d.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter.SignIn Method " Url="html/9b03c720-135a-1b5e-e842-a5d7a9695798.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SignOut method">
+    <HelpKINode Title="BasicFormsAuthentication.SignOut Method " Url="html/44783d55-0ee4-1773-414c-5903e2c8e609.htm" />
+    <HelpKINode Title="IFormsAuthenticationAdapter.SignOut Method " Url="html/86563f90-2518-bcc7-cead-ccdc060248cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stylesheet method" Url="html/74ff22cc-87c5-2d7a-6149-9279c1bf626f.htm" />
   <HelpKINode Title="TestHttpRoute(Of T, U) method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
   <HelpKINode Title="TestHttpRoute&lt;T, U&gt; method" Url="html/34ca1869-4192-11a8-9b26-bd7e376409db.htm" />
   <HelpKINode Title="TestRouteFromRouteData method" Url="html/098dbf92-9d62-5d27-c279-9cf5e6a0693e.htm" />
   <HelpKINode Title="TestRouteFromUrl method" Url="html/2eac67d9-5363-7152-796d-5c5328c16841.htm" />
-  <HelpKINode Title="WebApiModelBinderProvider class" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
-  <HelpKINode Title="WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
   <HelpKINode Title="WebApiModelBinderProvider class">
+    <HelpKINode Title="WebApiModelBinderProvider Class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
+    <HelpKINode Title="WebApiModelBinderProvider Members" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
     <HelpKINode Title="about WebApiModelBinderProvider class" Url="html/c48076d6-9b84-5adf-2909-9236d3c18245.htm" />
     <HelpKINode Title="all members" Url="html/a789cf82-3f3d-3e6b-e3cf-051b1ca45c58.htm" />
     <HelpKINode Title="constructor" Url="html/d67f536f-f364-8546-d664-fa9bf32ca615.htm" />
@@ -334,9 +397,9 @@
   <HelpKINode Title="WebApiModelBinderProvider.Binders property" Url="html/a73ee574-de37-59fa-19ed-73b951c5f4c7.htm" />
   <HelpKINode Title="WebApiModelBinderProvider.GetBinder method" Url="html/1b85a39a-eb76-5452-6c86-9a3ef7fc2162.htm" />
   <HelpKINode Title="WebApiModelBinderProvider.WebApiModelBinderProvider constructor" Url="html/d67f536f-f364-8546-d664-fa9bf32ca615.htm" />
-  <HelpKINode Title="XmlCommentDocumentationProvider class" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
-  <HelpKINode Title="XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
   <HelpKINode Title="XmlCommentDocumentationProvider class">
+    <HelpKINode Title="XmlCommentDocumentationProvider Class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
+    <HelpKINode Title="XmlCommentDocumentationProvider Members" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
     <HelpKINode Title="about XmlCommentDocumentationProvider class" Url="html/e5c103a6-6c20-7311-7e0a-55be8b76c9d1.htm" />
     <HelpKINode Title="all members" Url="html/52527ed6-7261-5d0f-ac77-b73e8558bfe1.htm" />
     <HelpKINode Title="constructor" Url="html/0f3ef451-b425-0d4a-5e28-d2c1f8a9c8d3.htm" />
