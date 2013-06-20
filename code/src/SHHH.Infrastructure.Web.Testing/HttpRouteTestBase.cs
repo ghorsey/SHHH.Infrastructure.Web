@@ -5,13 +5,9 @@
 namespace SHHH.Infrastructure.Web.Testing
 {
     using System;
-    using System.Diagnostics;
     using System.Linq.Expressions;
     using System.Net.Http;
-    using System.Web;
     using System.Web.Http;
-    using System.Web.Routing;
-    using Moq;
     using NUnit.Framework;
 
     /// <summary>
@@ -23,16 +19,16 @@ namespace SHHH.Infrastructure.Web.Testing
         /// Initializes a new instance of the <see cref="HttpRouteTestBase" /> class.
         /// </summary>
         /// <param name="f">The function.</param>
-        /// <exception cref="System.ArgumentNullException">Function to return routes and HTTP configuration cannot be null!</exception>
+        /// <exception cref="System.ArgumentNullException">f;Function to return routes and HTTP configuration cannot be null!</exception>
         protected HttpRouteTestBase(Func<HttpConfiguration> f)
         {
             if (f == null)
             {
-                throw new ArgumentNullException("Function to return routes and HTTP configuration cannot be null!");
+                throw new ArgumentNullException("f", "Function to return routes and HTTP configuration cannot be null!");
             }
 
             var h = f();
-            
+
             HttpConfiguration = h;
         }
 
@@ -48,14 +44,15 @@ namespace SHHH.Infrastructure.Web.Testing
         /// Tests the HTTP route.
         /// </summary>
         /// <typeparam name="T">The type</typeparam>
-        /// <typeparam name="U">The result</typeparam>
+        /// <typeparam name="TExpression">The result</typeparam>
         /// <param name="method">The method.</param>
         /// <param name="url">The URL.</param>
         /// <param name="controllerType">Type of the controller.</param>
         /// <param name="expression">The expression.</param>
         /// <exception cref="System.InvalidOperationException">HttpConfiguration cannot be null!</exception>
         /// <exception cref="System.Exception"></exception>
-        protected void TestHttpRoute<T, U>(HttpMethod method, string url, Type controllerType, Expression<Func<T, U>> expression)
+        protected void TestHttpRoute<T, TExpression>(
+            HttpMethod method, string url, Type controllerType, Expression<Func<T, TExpression>> expression)
         {
             if (HttpConfiguration == null)
             {
@@ -85,37 +82,5 @@ namespace SHHH.Infrastructure.Web.Testing
                 throw new Exception(x.Response.ToString(), x);
             }
         }
-
-        #region Private Methods
-        /// <summary>
-        /// Creates the mock context.
-        /// </summary>
-        /// <param name="url">The URL.</param>
-        /// <returns>The Mock of the HTTP Context</returns>
-        private Mock<HttpContextBase> CreateMockContext(string url)
-        {
-            Mock<HttpContextBase> mockContext = new Mock<HttpContextBase>();
-            Mock<HttpRequestBase> mockRequest = new Mock<HttpRequestBase>();
-            Mock<HttpResponseBase> mockResponse = new Mock<HttpResponseBase>();
-
-            mockRequest.Setup(x => x.AppRelativeCurrentExecutionFilePath).Returns(url);
-            mockResponse.Setup(x => x.ApplyAppPathModifier(It.IsAny<string>())).Returns<string>(x => x);
-
-            mockContext.Setup(x => x.Response).Returns(mockResponse.Object);
-            mockContext.Setup(x => x.Request).Returns(mockRequest.Object);
-
-            return mockContext;
-        }
-
-        /// <summary>
-        /// Creates the request context.
-        /// </summary>
-        /// <param name="url">The URL.</param>
-        /// <returns>The request context</returns>
-        private RequestContext CreateRequestContext(string url)
-        {
-            return new RequestContext(this.CreateMockContext(url).Object, new RouteData());
-        }
-        #endregion
     }
 }

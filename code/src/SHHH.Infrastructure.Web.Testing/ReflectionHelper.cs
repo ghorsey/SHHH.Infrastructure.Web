@@ -32,7 +32,7 @@ namespace SHHH.Infrastructure.Web.Testing
                 throw new ArgumentException("Expression is wrong");
             }
 
-            var attr = method.Method.CustomAttributes.Where(x => typeof(ActionNameAttribute).IsAssignableFrom(x.AttributeType)).FirstOrDefault();
+            var attr = method.Method.CustomAttributes.FirstOrDefault(x => typeof(ActionNameAttribute).IsAssignableFrom(x.AttributeType));
 
             if (attr != null && attr.ConstructorArguments.Count == 1)
             {

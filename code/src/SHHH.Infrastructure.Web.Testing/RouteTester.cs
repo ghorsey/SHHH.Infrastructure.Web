@@ -22,27 +22,27 @@ namespace SHHH.Infrastructure.Web.Testing
         /// <summary>
         /// The config
         /// </summary>
-        private HttpConfiguration config;
+        private readonly HttpConfiguration config;
 
         /// <summary>
         /// The request
         /// </summary>
-        private HttpRequestMessage request;
+        private readonly HttpRequestMessage request;
 
         /// <summary>
         /// The route data
         /// </summary>
-        private IHttpRouteData routeData;
+        private readonly IHttpRouteData routeData;
 
         /// <summary>
         /// The controller selector
         /// </summary>
-        private IHttpControllerSelector controllerSelector;
+        private readonly IHttpControllerSelector controllerSelector;
 
         /// <summary>
         /// The controller context
         /// </summary>
-        private HttpControllerContext controllerContext;
+        private readonly HttpControllerContext controllerContext;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="RouteTester" /> class.
@@ -57,8 +57,8 @@ namespace SHHH.Infrastructure.Web.Testing
             this.routeData = this.config.Routes.GetRouteData(this.request);
             if (this.routeData == null)
             {
-                var msgFormat = "Could not generate the route data for the request: {0}.  Common pitfalls: a typo in Controller or Action name in the route definition, or incorrectly using Http verbs from System.Web.Mvc instead of System.Web.Http.";
-                throw new InvalidOperationException(string.Format(msgFormat, this.request.ToString()));
+                const string MsgFormat = "Could not generate the route data for the request: {0}.  Common pitfalls: a typo in Controller or Action name in the route definition, or incorrectly using Http verbs from System.Web.Mvc instead of System.Web.Http.";
+                throw new InvalidOperationException(string.Format(MsgFormat, this.request));
             }
 
             this.request.Properties[HttpPropertyKeys.HttpRouteDataKey] = this.routeData;
