@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Removed Allow Partially Trusted Callers
+      * Minor bug fixes
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
