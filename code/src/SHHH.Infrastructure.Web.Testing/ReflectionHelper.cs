@@ -20,11 +20,11 @@ namespace SHHH.Infrastructure.Web.Testing
         /// Gets the name of the method.
         /// </summary>
         /// <typeparam name="T">The type</typeparam>
-        /// <typeparam name="U">The expression</typeparam>
+        /// <typeparam name="TU">The expression</typeparam>
         /// <param name="expression">The expression.</param>
         /// <returns>The method name</returns>
         /// <exception cref="System.ArgumentException">Expression is wrong</exception>
-        public static string GetMethodName<T, U>(Expression<Func<T, U>> expression)
+        public static string GetMethodName<T, TU>(Expression<Func<T, TU>> expression)
         {
             var method = expression.Body as MethodCallExpression;
             if (method == null)

@@ -25,7 +25,7 @@ namespace SHHH.Infrastructure.Web
         {
             if (reference == null)
             {
-                throw new ArgumentNullException("references");
+                throw new ArgumentNullException("reference");
             }
 
             if (string.IsNullOrWhiteSpace(name))

@@ -8,7 +8,7 @@ namespace SHHH.Infrastructure.Web
     /// A common interface for determining if an Identity is in a specific role
     /// </summary>
     /// <typeparam name="T">The class the role provider works with</typeparam>
-    public interface IRoleProvider<T> where T : class
+    public interface IRoleProvider<in T> where T : class
     {
         /// <summary>
         /// Determines whether the identity is in the specified role.

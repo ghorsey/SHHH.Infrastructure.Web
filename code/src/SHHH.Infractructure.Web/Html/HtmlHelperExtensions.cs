@@ -61,16 +61,9 @@ namespace SHHH.Infrastructure.Web.Html
             builder.MergeAttribute("type", "text/css");
             builder.MergeAttribute("rel", rel);
 
-            if (Debugger.IsAttached)
-            {
-                href = string.Concat(href, extension);
-            }
-            else
-            {
-                href = string.Concat(href, suffix, extension);
-            }
+            href = Debugger.IsAttached ? string.Concat(href, extension) : string.Concat(href, suffix, extension);
 
-            if (includeVersion == true)
+            if (includeVersion)
             {
                 href = AppendVersion(href);
             }
@@ -156,7 +149,7 @@ namespace SHHH.Infrastructure.Web.Html
                 setSettings(settings);
             }
 
-            return new HtmlString(JsonConvert.SerializeObject(value));
+            return new HtmlString(JsonConvert.SerializeObject(value, settings));
         }
 
         /// <summary>

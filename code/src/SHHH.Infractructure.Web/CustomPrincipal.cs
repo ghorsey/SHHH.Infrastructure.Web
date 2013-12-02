@@ -58,7 +58,7 @@ namespace SHHH.Infrastructure.Web
         /// </returns>
         public bool IsInRole(string role)
         {
-            return this.RoleProvider.IsInRole((T)((CustomIdentity<T>)this.Identity).Reference, role);
+            return this.RoleProvider.IsInRole(((CustomIdentity<T>)this.Identity).Reference, role);
         }
     }
 }

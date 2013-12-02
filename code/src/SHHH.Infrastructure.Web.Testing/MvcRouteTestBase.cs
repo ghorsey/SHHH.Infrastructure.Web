@@ -25,7 +25,7 @@ namespace SHHH.Infrastructure.Web.Testing
         {
             if (f == null)
             {
-                throw new ArgumentNullException("Function to return routes cannot be null!");
+                throw new ArgumentNullException("f", "Function to return routes cannot be null!");
             }
 
             this.Routes = f();
@@ -113,12 +113,13 @@ namespace SHHH.Infrastructure.Web.Testing
         /// <returns>The virtual path data</returns>
         private VirtualPathData GenerateUrlFromRouteData(object values)
         {   
-            var mockContext = this.CreateMockContext(null);
+            this.CreateMockContext(null);
             RequestContext requestContext = this.CreateRequestContext(null);
             VirtualPathData vpd = this.Routes.GetVirtualPath(requestContext, new RouteValueDictionary(values));
 
-            StackTrace st = new StackTrace();
+            var st = new StackTrace();
 
+            Debug.Assert(vpd != null, "vpd != null");
             Console.WriteLine("{0}: {1}", st.GetFrame(1).GetMethod().Name, vpd.VirtualPath);
 
             return vpd;
@@ -131,9 +132,9 @@ namespace SHHH.Infrastructure.Web.Testing
         /// <returns>The Mock of the HTTP Context</returns>
         private Mock<HttpContextBase> CreateMockContext(string url)
         {
-            Mock<HttpContextBase> mockContext = new Mock<HttpContextBase>();
-            Mock<HttpRequestBase> mockRequest = new Mock<HttpRequestBase>();
-            Mock<HttpResponseBase> mockResponse = new Mock<HttpResponseBase>();
+            var mockContext = new Mock<HttpContextBase>();
+            var mockRequest = new Mock<HttpRequestBase>();
+            var mockResponse = new Mock<HttpResponseBase>();
 
             mockRequest.Setup(x => x.AppRelativeCurrentExecutionFilePath).Returns(url);
             mockResponse.Setup(x => x.ApplyAppPathModifier(It.IsAny<string>())).Returns<string>(x => x);

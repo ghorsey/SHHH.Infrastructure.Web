@@ -9,6 +9,7 @@
 namespace SHHH.Infrastructure.Web.Http.Documentation
 {
     using System;
+    using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Linq;
     using System.Reflection;
@@ -32,18 +33,18 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// The nullable type name regex
         /// </summary>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        private static Regex nullableTypeNameRegex = new Regex(@"(.*\.Nullable)" + Regex.Escape("`1[[") + "([^,]*),.*");
+        private static readonly Regex NullableTypeNameRegex = new Regex(@"(.*\.Nullable)" + Regex.Escape("`1[[") + "([^,]*),.*");
 
         /// <summary>
         /// The generic type name regex
         /// </summary>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
-        private static Regex genericTypeNameRegex = new Regex(@"^(.*?)`(\d+)\[(?:(?:,\s)?\[(.*?),[^\]]*\]){1,}\]", RegexOptions.IgnoreCase);
+        private static readonly Regex GenericTypeNameRegex = new Regex(@"^(.*?)`(\d+)\[(?:(?:,\s)?\[(.*?),[^\]]*\]){1,}\]", RegexOptions.IgnoreCase);
 
         /// <summary>
         /// The document navigator
         /// </summary>
-        private XPathNavigator documentNavigator;
+        private readonly XPathNavigator documentNavigator;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="XmlCommentDocumentationProvider"/> class.
@@ -51,7 +52,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// <param name="documentPath">The document path.</param>
         public XmlCommentDocumentationProvider(string documentPath)
         {
-            XPathDocument xpath = new XPathDocument(documentPath);
+            var xpath = new XPathDocument(documentPath);
             this.documentNavigator = xpath.CreateNavigator();
         }
 
@@ -64,7 +65,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// </returns>
         public virtual string GetDocumentation(HttpParameterDescriptor parameterDescriptor)
         {
-            ReflectedHttpParameterDescriptor reflectedParameterDescriptor = parameterDescriptor as ReflectedHttpParameterDescriptor;
+            var reflectedParameterDescriptor = parameterDescriptor as ReflectedHttpParameterDescriptor;
             if (reflectedParameterDescriptor != null)
             {
                 XPathNavigator memberNode = this.GetMemberNode(reflectedParameterDescriptor.ActionDescriptor);
@@ -111,6 +112,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// <returns>The member name</returns>
         private static string GetMemberName(MethodInfo method)
         {
+            Debug.Assert(method.DeclaringType != null, "method.DeclaringType != null");
             string name = string.Format("{0}.{1}", method.DeclaringType.FullName, method.Name);
             var parameters = method.GetParameters();
             if (parameters.Length != 0)
@@ -130,17 +132,17 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         private static string ProcessTypeName(string typeName)
         {
             // handle nullable
-            var result = nullableTypeNameRegex.Match(typeName);
+            var result = NullableTypeNameRegex.Match(typeName);
             if (result.Success)
             {
                 return string.Format("{0}{{{1}}}", result.Groups[1].Value, result.Groups[2].Value);
             }
 
-            result = genericTypeNameRegex.Match(typeName);
+            result = GenericTypeNameRegex.Match(typeName);
             if (result.Success)
             {
                 var count = Convert.ToInt32(result.Groups[2].Value);
-                StringBuilder sb = new StringBuilder();
+                var sb = new StringBuilder();
                 sb.AppendFormat("{0}{{", result.Groups[1].Value);
                 sb.Append(result.Groups[3].Value);
                 if (count > 1)
@@ -166,7 +168,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// <returns>The <see cref="XPathNavigator"/></returns>
         private XPathNavigator GetMemberNode(HttpActionDescriptor actionDescriptor)
         {
-            ReflectedHttpActionDescriptor reflectedActionDescriptor = actionDescriptor as ReflectedHttpActionDescriptor;
+            var reflectedActionDescriptor = actionDescriptor as ReflectedHttpActionDescriptor;
             if (reflectedActionDescriptor != null)
             {
                 string selectExpression = string.Format(MethodExpression, GetMemberName(reflectedActionDescriptor.MethodInfo));

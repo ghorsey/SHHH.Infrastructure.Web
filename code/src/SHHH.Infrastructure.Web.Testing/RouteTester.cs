@@ -11,7 +11,6 @@ namespace SHHH.Infrastructure.Web.Testing
     using System.Web.Http.Controllers;
     using System.Web.Http.Dispatcher;
     using System.Web.Http.Hosting;
-    using System.Web.Http.Routing;
 
     /// <summary>
     /// Code taken from: http://www.strathweb.com/2012/08/testing-routes-in-asp-net-web-api/
@@ -20,19 +19,9 @@ namespace SHHH.Infrastructure.Web.Testing
     public class RouteTester
     {
         /// <summary>
-        /// The config
-        /// </summary>
-        private readonly HttpConfiguration config;
-
-        /// <summary>
         /// The request
         /// </summary>
         private readonly HttpRequestMessage request;
-
-        /// <summary>
-        /// The route data
-        /// </summary>
-        private readonly IHttpRouteData routeData;
 
         /// <summary>
         /// The controller selector
@@ -52,18 +41,17 @@ namespace SHHH.Infrastructure.Web.Testing
         /// <exception cref="System.InvalidOperationException">Could not generate the route data for the request: {request url}.  Common pitfalls: a typo in Controller or Action name in the route definition, or incorrectly using Http verbs from System.Web.Mvc instead of System.Web.Http.</exception>
         public RouteTester(HttpConfiguration config, HttpRequestMessage request)
         {
-            this.config = config;
             this.request = request;
-            this.routeData = this.config.Routes.GetRouteData(this.request);
-            if (this.routeData == null)
+            var routeData = config.Routes.GetRouteData(this.request);
+            if (routeData == null)
             {
                 const string MsgFormat = "Could not generate the route data for the request: {0}.  Common pitfalls: a typo in Controller or Action name in the route definition, or incorrectly using Http verbs from System.Web.Mvc instead of System.Web.Http.";
                 throw new InvalidOperationException(string.Format(MsgFormat, this.request));
             }
 
-            this.request.Properties[HttpPropertyKeys.HttpRouteDataKey] = this.routeData;
-            this.controllerSelector = new DefaultHttpControllerSelector(this.config);
-            this.controllerContext = new HttpControllerContext(this.config, this.routeData, this.request);
+            this.request.Properties[HttpPropertyKeys.HttpRouteDataKey] = routeData;
+            this.controllerSelector = new DefaultHttpControllerSelector(config);
+            this.controllerContext = new HttpControllerContext(config, routeData, this.request);
         }
 
         /// <summary>
