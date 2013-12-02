@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Fixed issue with Html.Json() helper not using the JsonSerializerSettings object
+      * Updating to MVC 5
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>
