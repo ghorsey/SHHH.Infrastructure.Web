@@ -113,13 +113,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj">
-      <Project>{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}</Project>
-      <Name>SHHH.Infrastructure.Web</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj">
       <Project>{c01cc1db-18bd-48f7-bb8a-95226cf9015b}</Project>
       <Name>SHHH.Infrastructure.Web.Testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SHHH.Infrastructure.Web\SHHH.Infrastructure.Web.csproj">
+      <Project>{62e4e261-5fb7-4ae3-ba32-426802be9f1f}</Project>
+      <Name>SHHH.Infrastructure.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

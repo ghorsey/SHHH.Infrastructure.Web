@@ -32,17 +32,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{BA2F
 		SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec = SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web", "SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj", "{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap", "SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj", "{9A415FE7-385A-4CC3-9D90-828037841F3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver", "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj", "{DC224A0B-5E54-45CB-96A3-8D36C58964FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Testing", "SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj", "{C01CC1DB-18BD-48F7-BB8A-95226CF9015B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infractructure.Web.Tests", "SHHH.Infrastructure.Web.Tests\SHHH.Infractructure.Web.Tests.csproj", "{6E4CD408-9CD1-43B7-AE56-B29EE9E84E1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Tests", "SHHH.Infrastructure.Web.Tests\SHHH.Infrastructure.Web.Tests.csproj", "{6E4CD408-9CD1-43B7-AE56-B29EE9E84E1E}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SHHH_Infrastructure_Web", "SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj", "{9EC55DE2-173F-490D-B2AC-AA9E49042657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web", "SHHH.Infrastructure.Web\SHHH.Infrastructure.Web.csproj", "{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,12 +51,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.BuildHelp|Any CPU.ActiveCfg = BuildHelp|Any CPU
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.BuildHelp|Any CPU.Build.0 = BuildHelp|Any CPU
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A415FE7-385A-4CC3-9D90-828037841F3C}.BuildHelp|Any CPU.ActiveCfg = BuildHelp|Any CPU
 		{9A415FE7-385A-4CC3-9D90-828037841F3C}.BuildHelp|Any CPU.Build.0 = BuildHelp|Any CPU
 		{9A415FE7-385A-4CC3-9D90-828037841F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -85,6 +79,12 @@ Global
 		{9EC55DE2-173F-490D-B2AC-AA9E49042657}.BuildHelp|Any CPU.Build.0 = BuildHelp|Any CPU
 		{9EC55DE2-173F-490D-B2AC-AA9E49042657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9EC55DE2-173F-490D-B2AC-AA9E49042657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.BuildHelp|Any CPU.ActiveCfg = BuildHelp|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.BuildHelp|Any CPU.Build.0 = BuildHelp|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
