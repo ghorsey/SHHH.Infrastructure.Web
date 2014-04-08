@@ -5,9 +5,11 @@
 namespace SHHH.Infrastructure.Web.Html
 {
     using System;
+    using System.Configuration;
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Web;
+    using System.Web.Http;
     using System.Web.Mvc;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -17,6 +19,11 @@ namespace SHHH.Infrastructure.Web.Html
     /// </summary>
     public static class HtmlHelperExtensions
     {
+        /// <summary>
+        /// The HTTP context
+        /// </summary>
+        internal static Func<HttpContextBase> HttpContextAccessor = () => new HttpContextWrapper(HttpContext.Current);
+
         /// <summary>
         /// Stylesheets the specified helper.
         /// </summary>
@@ -141,8 +148,15 @@ namespace SHHH.Infrastructure.Web.Html
         /// </returns>
         public static HtmlString Json(this HtmlHelper helper, object value, Action<JsonSerializerSettings> setSettings = null)
         {
-            var settings = new JsonSerializerSettings();
-            settings.Converters.Add(new StringEnumConverter());
+            JsonSerializerSettings settings;
+            if (GlobalConfiguration.Configuration != null)
+            {
+                settings = GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings ?? new JsonSerializerSettings();
+            }
+            else
+            {
+                settings = new JsonSerializerSettings();
+            }
 
             if (setSettings != null)
             {
@@ -159,7 +173,7 @@ namespace SHHH.Infrastructure.Web.Html
         /// <returns>The URI with the version of the calling assembly appended</returns>
         private static string AppendVersion(string uri)
         {
-            var type = HttpContext.Current.ApplicationInstance.GetType();
+            var type = HtmlHelperExtensions.HttpContextAccessor().ApplicationInstance.GetType();
 
             while (type.BaseType != null && type.Namespace == "ASP")
             {

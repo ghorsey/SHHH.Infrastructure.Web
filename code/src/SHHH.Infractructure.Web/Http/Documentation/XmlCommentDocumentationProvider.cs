@@ -87,7 +87,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// Gets the documentation.
         /// </summary>
         /// <param name="controllerDescriptor">The controller descriptor.</param>
-        /// <returns></returns>
+        /// <returns>TBD the documentation</returns>
         public string GetDocumentation(HttpControllerDescriptor controllerDescriptor)
         {
             return string.Empty; // todo: need to write this
@@ -97,7 +97,7 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
         /// Gets the response documentation.
         /// </summary>
         /// <param name="actionDescriptor">The action descriptor.</param>
-        /// <returns></returns>
+        /// <returns>TBD: the documentation</returns>
         public string GetResponseDocumentation(HttpActionDescriptor actionDescriptor)
         {
             return string.Empty; // todo: need to write this.
@@ -201,8 +201,5 @@ namespace SHHH.Infrastructure.Web.Http.Documentation
 
             return null;
         }
-
-
-
     }
 }

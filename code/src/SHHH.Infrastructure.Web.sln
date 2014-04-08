@@ -3,20 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{939A437C-CFDA-424F-8012-8D13AD60B6A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web", "SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj", "{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E5FB475-776D-43D8-A610-CC25830EFC1A}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap", "SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj", "{9A415FE7-385A-4CC3-9D90-828037841F3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver", "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj", "{DC224A0B-5E54-45CB-96A3-8D36C58964FF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Testing", "SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj", "{C01CC1DB-18BD-48F7-BB8A-95226CF9015B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infractructure.Web.Tests", "SHHH.Infrastructure.Web.Tests\SHHH.Infractructure.Web.Tests.csproj", "{6E4CD408-9CD1-43B7-AE56-B29EE9E84E1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DEC0C8E4-7B08-4D07-97A3-CE7C18A052A0}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,8 +16,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DEC0C8
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{76386F16-0E0F-4A03-8F7D-11A6080C3D7F}"
-EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SHHH_Infrastructure_Web", "SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj", "{9EC55DE2-173F-490D-B2AC-AA9E49042657}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{BB8367AB-4641-44E8-9E96-C58CF57067DA}"
 	ProjectSection(SolutionItems) = preProject
@@ -43,6 +31,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{BA2F
 		SHHH.Infractructure.Web\SHHH.Infrastructure.Web.nuspec = SHHH.Infractructure.Web\SHHH.Infrastructure.Web.nuspec
 		SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec = SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web", "SHHH.Infractructure.Web\SHHH.Infrastructure.Web.csproj", "{62E4E261-5FB7-4AE3-BA32-426802BE9F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap", "SHHH.Infrastructure.Web.Bootstrap\SHHH.Infrastructure.Web.Bootstrap.csproj", "{9A415FE7-385A-4CC3-9D90-828037841F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver", "SHHH.Infrastructure.Web.Bootstrap.DependencyResolver\SHHH.Infrastructure.Web.Bootstrap.DependencyResolver.csproj", "{DC224A0B-5E54-45CB-96A3-8D36C58964FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Web.Testing", "SHHH.Infrastructure.Web.Testing\SHHH.Infrastructure.Web.Testing.csproj", "{C01CC1DB-18BD-48F7-BB8A-95226CF9015B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infractructure.Web.Tests", "SHHH.Infrastructure.Web.Tests\SHHH.Infractructure.Web.Tests.csproj", "{6E4CD408-9CD1-43B7-AE56-B29EE9E84E1E}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SHHH_Infrastructure_Web", "SHHH_Infrastructure_Web\SHHH_Infrastructure_Web.shfbproj", "{9EC55DE2-173F-490D-B2AC-AA9E49042657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

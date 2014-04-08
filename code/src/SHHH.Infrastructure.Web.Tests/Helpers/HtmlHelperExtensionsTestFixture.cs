@@ -4,10 +4,10 @@
 
 namespace SHHH.Infractructure.Web.Tests.Helpers
 {
-    using System;
-    using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
+    using System.Web;
     using System.Web.Mvc;
+    using Moq;
     using NUnit.Framework;
     using SHHH.Infrastructure.Web.Html;
 
@@ -18,30 +18,30 @@ namespace SHHH.Infractructure.Web.Tests.Helpers
     public class HtmlHelperExtensionsTestFixture
     {
         /// <summary>
+        /// Setups this instance.
+        /// </summary>
+        [SetUp]
+        public void Setup()
+        {
+            var mckHttpContext = new Mock<HttpContextBase>(MockBehavior.Strict);
+            mckHttpContext.Setup(c => c.ApplicationInstance).Returns(new HttpApplication());
+            HtmlHelperExtensions.HttpContextAccessor = () => mckHttpContext.Object;
+        }
+
+        /// <summary>
         /// Tests the stylesheet method.
         /// </summary>
         [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "Reviewed.")]
         [Test]
         public void TestStylesheetMethod()
         {
-            var resultWithoutExtension = HtmlHelperExtensions.Stylesheet((HtmlHelper)null, "site").ToString();
-            var resultWithCssExtension = HtmlHelperExtensions.Stylesheet((HtmlHelper)null, "site.css").ToString();
-            var resultWithLessExtension = HtmlHelperExtensions.Stylesheet((HtmlHelper)null, "site.less").ToString();
+            var resultWithoutExtension = ((HtmlHelper)null).Stylesheet("site").ToString();
+            var resultWithCssExtension = ((HtmlHelper)null).Stylesheet("site.css").ToString();
+            var resultWithLessExtension = ((HtmlHelper)null).Stylesheet("site.less").ToString();
 
-            if (!Debugger.IsAttached)
-            {
-                Assert.AreEqual("<link href=\"site.min.css\" rel=\"stylesheet\" type=\"text/css\" />", resultWithCssExtension);
-                Assert.AreEqual("<link href=\"site.min.less\" rel=\"stylesheet/less\" type=\"text/css\" />", resultWithLessExtension);
-                Assert.AreEqual("<link href=\"site.min.css\" rel=\"stylesheet\" type=\"text/css\" />", resultWithoutExtension);
-                Console.WriteLine("Success while the debugger is NOT attached");
-            }
-            else
-            {
-                Assert.AreEqual("<link href=\"site.css\" rel=\"stylesheet\" type=\"text/css\" />", resultWithCssExtension);
-                Assert.AreEqual("<link href=\"site.less\" rel=\"stylesheet/less\" type=\"text/css\" />", resultWithLessExtension);
-                Assert.AreEqual("<link href=\"site.css\" rel=\"stylesheet\" type=\"text/css\" />", resultWithoutExtension);
-                Console.WriteLine("Success whiel the debugger IS attached");
-            }
+                Assert.AreEqual("<link href=\"site.min.css?v=4.0.0.0\" rel=\"stylesheet\" type=\"text/css\" />", resultWithCssExtension);
+                Assert.AreEqual("<link href=\"site.min.less?v=4.0.0.0\" rel=\"stylesheet/less\" type=\"text/css\" />", resultWithLessExtension);
+                Assert.AreEqual("<link href=\"site.min.css?v=4.0.0.0\" rel=\"stylesheet\" type=\"text/css\" />", resultWithoutExtension);
         }
 
         /// <summary>
@@ -51,18 +51,13 @@ namespace SHHH.Infractructure.Web.Tests.Helpers
         [Test]
         public void TestJavascriptMethod()
         {
-            var resultsWithoutExtension = HtmlHelperExtensions.Javascript((HtmlHelper)null, "awesome-script").ToString();
-            var resultWithExtension = HtmlHelperExtensions.Javascript((HtmlHelper)null, "awesome-script.js").ToString();
+            var resultsWithoutExtension = ((HtmlHelper)null).Javascript("awesome-script").ToString();
+            var resultWithExtension = ((HtmlHelper)null).Javascript("awesome-script.js").ToString();
 
-            var expectation = "<script src=\"awesome-script.min.js\"></script>";
-            if (Debugger.IsAttached)
-            {
-                Console.WriteLine("Debugger IS attached");
-                expectation = "<script src=\"awesome-script.js\"></script>";
-            }
+            const string Expectation = "<script src=\"awesome-script.min.js?v=4.0.0.0\"></script>";
 
-            Assert.AreEqual(expectation, resultsWithoutExtension);
-            Assert.AreEqual(expectation, resultWithExtension);
+            Assert.AreEqual(Expectation, resultsWithoutExtension);
+            Assert.AreEqual(Expectation, resultWithExtension);
         }
     }
 }
