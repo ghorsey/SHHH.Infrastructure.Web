@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Updating to MVC 5
+      * Updating nuget packages
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH</tags>

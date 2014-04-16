@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      * Updating to MVC 5
+      * Updated nuget packages to latest versions
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH UnitTest Mvc WebAPI</tags>

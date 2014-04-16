@@ -1,4 +1,4 @@
-NuGet = ..\.nuget\NuGet.exe
+NuGet = ../.nuget/nuget.exe
 Name = SHHH.Infrastructure.Web.
 
 SPEC:
@@ -15,4 +15,4 @@ PUSH: PACK
 
 CLEAN:
 	@ECHO CLEANING PACKS...
-	del $(Name)*.nupkg
+	rm -f $(Name)*.nupkg
